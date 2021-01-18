@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock1"
+          name="Tick Tock Trial 1"
+          ip="24.43.69.78"
+          security="4"
+          type="4">
+
+<ports>22, 21, 80, 443, 6881, 1433</ports>
+<portsForCrack val="6"/>
+<proxy time="1"/>
+<firewall level="6" solution="TICKTOCK"/>
+
+<dlink target="clock2"/>
+
+</Computer>

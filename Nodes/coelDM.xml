@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="coelDM"
+          name="Coel Private Message"
+          ip="33.67.12.23"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+
+<IRCDaemon themeColor="171, 31, 158" name="Coel Private Message" needsLogin="false">
+<user name="Coel" color="37,124,156"/>
+<user name="#PLAYERNAME#" color="151,151,151"/>
+</IRCDaemon>
+
+</Computer>

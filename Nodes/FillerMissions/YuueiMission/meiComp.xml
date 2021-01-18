@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="meiComp"
+          name="Mei Laptop"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="1">
+
+<ports>21, 25, 443</ports>
+<portsForCrack val="3"/>
+<firewall level="5"/>
+<proxy time="-1"/>
+
+<file path="bin/downloaded" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+<encryptedFile path="home" name="Engineering_Dissertation.dec" extension=".docx" ip="155.252.124.2" header="Yuuei Academy Engineering Department">#BINARY#</encryptedFile>
+
+</Computer>

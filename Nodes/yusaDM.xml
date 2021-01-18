@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="yusaDM"
+          name="Yusa Private Message"
+          ip="33.67.12.25"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+
+<IRCDaemon themeColor="171,31,158" name="Yusa Private Message" needsLogin="false">
+<user name="Yusa" color="70,171,67"/>
+<user name="#PLAYERNAME#" color="151,151,151"/>
+</IRCDaemon>
+
+</Computer>

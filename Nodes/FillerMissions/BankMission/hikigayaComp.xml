@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hikigayaComp"
+          name="Yuno Hikigaya Battlstation"
+          ip="38.251.26.7"
+          security="4"
+          type="1">
+
+<ports>443, 22, 25, 80, 1433</ports>
+<portsForCrack val="4"/>
+<trace time="100"/>
+<proxy time="2"/>
+<firewall level="6"/>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+</Computer>

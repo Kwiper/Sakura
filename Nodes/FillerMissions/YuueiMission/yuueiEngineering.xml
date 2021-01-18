@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="yuueiEngineering"
+          name="Yuuei Academy Engineering Department"
+          ip="155.252.124.2"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 443, 1433</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="6"/>
+
+<dlink target="yuueiHub"/>
+
+<file path="home" name="Dissertations.txt">ALL STUDENTS IN THE ENGINEERING DEPARTMENT:
+Please upload your completed dissertations onto this server by the 7th of July. Failure to do so will result in expulsion from the program.</file>
+
+</Computer>
+

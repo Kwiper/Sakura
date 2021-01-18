@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="coelLikeCredits"
+          name="Credits Server"
+          ip="167.194.132.8"
+          security="1"
+          allowsDefaultBootModule="true"
+          type="4" >
+
+<adminPass pass="Credits" />
+<ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
+<portsForCrack val="0"/>
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="CreditsData.txt">
+%-- HACKNET: Sakura --
+
+%Created by:
+^Kwiper
+
+%Story by:
+^Kwiper
+
+%Music:
+
+^TeknoAXE
+Synthwave C
+Edge of Tomorrow
+Free From the Matrix
+Intellectual Malfunction
+Invading the 80s
+
+^Mr. McNoggin
+Gate of Steiner (Synthwave Remix)
+
+^Shady Cicada
+U.N. Owen Was Her (Rock Cover)
+
+^Whitesand
+Drops
+
+^HOME
+If I'm Wrong
+
+^Remi Gallego (The Algorithm)
+Payload (AKA Userspacelike)
+
+^Cinematrix
+Revolve
+
+^Carpenter Brut
+Turbo Killer
+
+^Special Thanks
+Spiderbenb
+Lilly (Coel)
+Maximus
+
+^Hacknet Created by Matt Trobbiani
+
+^You got the Coel "Like" ending!
+
+%THE END
+%THANKS FOR PLAYING!
+</file>
+
+<CreditsDaemon Title="End Credits" ButtonText="End" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsAction.xml"/>
+
+</Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic"
+          name="Universal Academic Archive"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<account username="Aizawa" password="MH-4C4" type="ADMIN"/>
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="6"/>
+
+<academicDatabase/>
+
+</Computer>
+

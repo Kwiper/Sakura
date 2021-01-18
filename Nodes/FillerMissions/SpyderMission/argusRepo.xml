@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="argusRepo"
+          name="Argus Repository Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
+
+<trace time="80"/>
+<proxy time="0.8"/>
+
+<file path="bin/WIP" name="Spyder.bat">#BINARY#</file>
+<file path="bin" name="SecureShellBreak.exe">#SSH_CRACK#</file>
+<file path="bin" name="FileTransferCrack.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+
+</Computer>

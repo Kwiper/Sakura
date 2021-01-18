@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock4"
+          name="Tick Tock Trial 4"
+          security="5"
+          type="4">
+
+
+<adminPass pass="noon"/>
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="200"/>
+<firewall level="-1"/>
+
+<eosDevice name="Tick Tock Trial 4.5" id="clockPhone" icon="ePhone" empty="true" passOverride="alpine">
+<note>Trial End
+Riddle me do, riddle me dee, the final IP comes in a riddle for thee.
+The first one is the number of times
+"riddle" was uttered in this little rhyme
+The second is the number of letters
+In total from the walls of fire
+(Did you remember them? Well, you better!)
+Third may give your brain a tire,
+But worry not, for it is not dire.
+'Tis the beginning of the end, the end of every place.
+'Tis the beginning of eternity, the end of time and space.
+The final one is not so tricky,
+In fact, I'd say it's quite a quicky.
+Excluding this phone, in this little trial,
+How many ordeals did I give you (in style)?
+Put them together and what do you get?
+A reward, that's what! And don't you forget!</note>
+</eosDevice>
+
+<Memory>
+<Data>
+<Block>The third clue might be a bit hard to understand.</Block>
+<Block>What place is it in the alphabet?</Block>
+</Data>
+</Memory>
+
+</Computer>

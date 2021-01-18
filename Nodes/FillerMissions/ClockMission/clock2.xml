@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock2"
+          name="Tick Tock Trial 2"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 6881</ports>
+<portsForCrack val="6"/>
+<firewall level="-1"/>
+
+<encryptedFile path="home" name="Trial_3.dec" extension=".txt" ip="192.168.1.1" header="What can fly but has no wings?" pass="time">24.44.68.78</encryptedFile>
+
+</Computer>

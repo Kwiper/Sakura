@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="privIRC"
+          name="Private IRC Channel"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 443, 6881</ports>
+
+<dlink target="aqueousComp"/>
+<dlink target="iliumComp"/>
+
+<IRCDaemon name="Private IRC Channel" needsLogin="false">
+<user name="ilium" color="33,195,76"/>
+<user name="aqueous" color="37,102,201"/>
+
+<post user="aqueous">Please</post>
+<post user="ilium">No.</post>
+<post user="aqueous">Why not?</post>
+<post user="ilium">Because I said so.</post>
+<post user="aqueous">Just send me the link warwicke sent you, there's no harm in that!</post>
+<post user="ilium">I said no. Find some way to get it yourself.</post>
+</IRCDaemon>
+
+</Computer>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock3"
+          name="Tick Tock Trial 3"
+          ip="24.44.68.78"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 1433, 554</ports>
+<portsForCrack val="4"/>
+<firewall level="6" solution="GOESTHECLOCK"/>
+
+<dlink target="clock4"/>
+
+<Memory>
+<Data>
+<Block>ADMIN:</Block>
+<Block>What time of day is a palindrome?</Block>
+</Data>
+</Memory>
+
+</Computer>

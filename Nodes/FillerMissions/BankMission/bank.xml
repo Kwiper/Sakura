@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bank"
+          name="HNBC Accounts Management"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="6"/>
+
+<encryptedFile path="home" name="A_Broodman.dec" extension=".dat" ip="66.21.155.26" header="A. Broodman" pass="HNBC-5723">Account Holder: Broodman, Alex
+Account Number: 557A-85F1-58Q0-291L
+#BINARY#</encryptedFile>
+<encryptedFile path="home" name="B_Cooper.dec" extension=".dat" ip="192.168.1.1" header="B. Cooper" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="C_Helberg.dec" extension=".dat" ip="192.168.1.1" header="C. Helberg" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="D_Bradcliffe.dec" extension=".dat" ip="192.168.1.1" header="D. Bradcliffe" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="E_Corleone.dec" extension=".dat" ip="192.168.1.1" header="E. Corleone" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="F_Quimbly.dec" extension=".dat" ip="192.168.1.1" header="F. Quimbly" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="G_Heffley.dec" extension=".dat" ip="192.168.1.1" header="G. Heffley" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="H_Harthome.dec" extension=".dat" ip="192.168.1.1" header="H. Harthome" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="I_Levison.dec" extension=".dat" ip="192.168.1.1" header="I. Levison" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="J_Newman.dec" extension=".dat" ip="192.168.1.1" header="J. Newman" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="K_Kimbley.dec" extension=".dat" ip="192.168.1.1" header="K. Kimbley" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="L_Ruther.dec" extension=".dat" ip="192.168.1.1" header="L. Ruther" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="M_Trobbiani.dec" extension=".dat" ip="192.168.1.1" header="M. Trobbiani" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="N_Davidson.dec" extension=".dat" ip="192.168.1.1" header="N. Davidson" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="O_Kyouma.dec" extension=".dat" ip="192.168.1.1" header="O. Kyouma" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="P_Parker.dec" extension=".dat" ip="192.168.1.1" header="P. Parker" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="Q_Branwen.dec" extension=".dat" ip="192.168.1.1" header="Q. Branwen" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="R_Hunter.dec" extension=".dat" ip="192.168.1.1" header="R. Hunter" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="S_deSilva.dec" extension=".dat" ip="192.168.1.1" header="S. deSilva" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="T_Stank.dec" extension=".dat" ip="192.168.1.1" header="T. Stank" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="U_Delavaux.dec" extension=".dat" ip="192.168.1.1" header="U. Delavaux" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="V_Vernon.dec" extension=".dat" ip="192.168.1.1" header="V. Vernon" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="W_Christchurch.dec" extension=".dat" ip="192.168.1.1" header="W. Christchurch" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="X_Charleson.dec" extension=".dat" ip="192.168.1.1" header="X. Charleson" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="Y_Hikigaya.dec" extension=".dat" ip="38.251.26.7" header="Y. Hikigaya" pass="HNBC-3482">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="Z_Olivier.dec" extension=".dat" ip="192.168.1.1" header="Z. Olivier" pass="HNBC-3482">#BINARY#</encryptedFile>
+
+<Memory>
+<Data>
+<Block>Connection from: #PLAYER_IP#</Block>
+<Block>Connection from: 38.251.26.7</Block>
+</Data>
+</Memory>
+
+</Computer>

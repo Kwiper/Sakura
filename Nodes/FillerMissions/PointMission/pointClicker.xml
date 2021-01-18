@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pointClicker"
+          name="Point Clicker"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="3"/>
+
+<trace time="60"/>
+
+<dlink target="pointDev"/>
+<dlink target="pointWhitelist"/>
+
+<PointClicker />
+
+</Computer>

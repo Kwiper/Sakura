@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lucasComp"
+          name="Lucas R. Laptop"
+          security="4"
+          icon="laptop"
+          type="1">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="3"/>
+<firewall level="6" solution="MADHOUSE"/>
+
+<dlink target="lucasBackup"/>
+
+<file path="home" name="Thesis.docx">A Diatribe Against Flat-Earthers
+    It is common knowledge that our world is round. This fact was made evident as far back as the Ancient Greeks. However, there was a long period of time when mankind considered the world to be flat again. Luckily, thanks to the power of science, humanity was shown the truth once more. However, in this modern age, there are still those who hold that medieval level of thinking and believe the Earth to be flat. My thesis will be a diatribe against these so-called "Flat-Earthers."
+</file>
+
+</Computer>

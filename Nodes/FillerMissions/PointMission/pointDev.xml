@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pointDev"
+          name="Point Clicker Development Server"
+          security="4"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
+<proxy time="0.5"/>
+<firewall level="6" solution="CLICKERS"/>
+
+<IRCDaemon themeColor="67,204,148" name="Point Clicker Development Server IRC" needsLogin="true">
+<user name="Dashu" color="0,209,232"/>
+<user name="Rashu" color="202,98,0"/>
+
+<post user="Dashu">what would happen if</post>
+<post user="Dashu">I suddenly shut down PointClicker</post>
+<post user="Dashu">Before the Valentine's update</post>
+<post user="Dashu">like</post>
+<post user="Dashu">no more PointClicker</post>
+<post user="Rashu">lol do it</post>
+<post user="Rashu">right before the valentine's update just tell everyone that PointClicker is shutting down</post>
+<post user="Dashu">how will all the lonely weebs on our Distort server spend their valentine's day lol</post>
+<post user="Rashu">Fapping.</post>
+</IRCDaemon>
+
+<WhitelistAuthenticatorDaemon Remote="pointWhitelist"/>
+
+</Computer>

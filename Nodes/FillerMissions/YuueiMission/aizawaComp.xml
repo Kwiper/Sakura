@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aizawaComp"
+          name="Aizawa Workstation"
+          ip="224.124.23.125"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="1">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5"/>
+<trace time="100"/>
+
+<file path="home" name="Sleep_Schedule.txt">Sunday: 8PM-8AM
+Monday: 8PM-8AM
+Tuesday: 8PM-8AM
+Wednesday: 8PM-8AM
+Thursday: 8PM-8AM
+Friday: 8PM-8AM
+Saturday: 8PM-8AM</file>
+<file path="home" name="Class_Plan.docx">#BINARY#</file>
+<file path="home" name="Costume_Sketch.jpg">#BINARY#</file>
+
+<eosDevice name="Aizawa ePhone 6x" id="aizawaPhone" icon="ePhone" empty="false" passOverride="alpine">
+<note>Academic Archive
+Aizawa
+MH-4C4</note>
+</eosDevice>
+
+</Computer>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="iliumComp"
+          name="Ilium Battlestation"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 443, 6881, 1433</ports>
+<portsForCrack val="7"/>
+
+
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<encryptedFile path="home" name="Clock.dec" extension=".exe" ip="192.168.1.1" header="Clock" pass="yourenotsupposedtogetthisfileha">#SECURITYTRACER_PROGRAM#</encryptedFile>
+
+<eosDevice name="Ilium ePhone" id="iliumPhone" icon="ePhone2" empty="false" passOverride="alpine">
+<mail username="ilium@jmail.com" pass="bonesarecool"/>
+</eosDevice>
+
+</Computer>

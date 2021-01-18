@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="broodmanComp"
+          name="A. Broodman Laptop"
+          ip="66.21.155.26"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="1">
+
+<ports>22, 25, 1433, 443</ports>
+<portsForCrack val="4"/>
+<trace time="150"/>
+<firewall level="-1"/>
+<proxy time="1"/>
+
+<eosDevice name="Broodman's ePhone 7x" id="broodmanPhone" icon="ePhone2" empty="false" passOverride="alpine">
+<note>Account Pass
+Account Details: HNBC-5723</note>
+<mail username="abroodman@jmail.com" pass="ImBroodman"/>
+</eosDevice>
+
+</Computer>

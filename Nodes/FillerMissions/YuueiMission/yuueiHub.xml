@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="yuueiHub"
+          name="Yuuei Academy Hub Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5"/>
+
+<file path="home" name="Staff_Register.log">#BINARY#</file>
+<file path="home" name="Student_Register.log">#BINARY#</file>
+
+<Memory>
+<Data>
+<Block>Connection from: #PLAYER_IP#</Block>
+<Block>Connection from: 224.124.23.125</Block>
+</Data>
+</Memory>
+
+</Computer>

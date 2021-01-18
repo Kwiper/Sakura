@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kurisuDM"
+          name="Kurisu Private Message"
+          ip="33.67.12.24"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+
+<IRCDaemon themeColor="171,31,158" name="Kurisu Private Message" needsLogin="false">
+<user name="Kurisu" color="171,70,67"/>
+<user name="#PLAYERNAME#" color="151,151,151"/>
+</IRCDaemon>
+
+</Computer>

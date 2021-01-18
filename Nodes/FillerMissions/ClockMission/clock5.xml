@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock5"
+          name="Tick Tock Trial End"
+          ip="4.20.5.4"
+          security="1"
+          allowsDefaultBootModule="false"
+          type="4">
+
+<ports>22</ports>
+
+<file path="home/reward" name="Clock.exe">#CLOCK_PROGRAM#</file>
+<file path="home/reward" name="Congratulations.txt">Congratulations.
+You have completed my little game.
+As a reward, I present to you the greatest program known to mankind.
+-K</file>
+
+</Computer>

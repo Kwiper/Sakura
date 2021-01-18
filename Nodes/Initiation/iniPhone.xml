@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="iniPhone"
+          name="ePhone 5x"
+          ip="53.142.52.63"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="ePhone2"
+          type="4">
+
+<adminPass pass="MySpoon"/>
+
+<ports>3659, 21, 25</ports>
+<portsForCrack val="2"/>
+
+<file path="eos/apps/Hearthgem" name="save.dat">#BINARY#</file>
+<file path="eos/apps/Dashlands" name="save.dat">#BINARY#</file>
+<file path="eos/notes" name="Phone_Password">Phone Password
+MySpoon
+
+Don't know how this'll help me if I get locked out.</file>
+<file path="eos/mail" name="kamehameha@jmail.com.act">MAIL ACCOUNT : kamehameha@jmail.com
+Account  :kamehameha@jmail.com 
+Password :kurigohan
+Last sync:10/9/20XX 12:06:23 PM
+
+#BINARY#</file>
+<file path="eos/system" name="core.sys">#BINARY#</file>
+<file path="eos/system" name="runtime.bin">#BINARY#</file>
+
+</Computer>

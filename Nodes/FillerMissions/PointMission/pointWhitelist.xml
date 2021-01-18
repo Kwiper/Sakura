@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pointWhitelist"
+          name="PointClicker Whitelist Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 25, 80</ports>
+<portsForCrack val="3"/>
+<firewall level="6"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+
+</Computer>
