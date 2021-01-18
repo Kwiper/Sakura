@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="spyderMission" activeCheck="false">
+
+<goals>
+<goal type="fileupload" target="lucasComp" file="Spyder.bat" path="sys" destTarget="lucasComp" destPath="sys"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Synthwave_C.ogg</missionStart>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Arachnophobia">
+A client has asked us to upload some spyware onto someone's computer.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>Arachnophobia</subject>
+<body>Mission number one is a go, #PLAYERNAME#.
+Somebody wants some spyware uploaded onto another person's computer. Unfortunately, I don't carry around any spare spyware. Luckily, I know a place that creates programs like what we use to hack into computers.
+I'll link you to both the target and the repository where the goods are kept. Once you get the spyware, you should upload it to the target's /sys folder.
+Good luck,
+-Coel</body>
+<attachments>
+<note title="Mission Details">Acquire spyware somehow
+Upload to target's /sys folder</note>
+<link comp="argusRepo"/>
+<link comp="lucasComp"/>
+</attachments>
+</email>
+</mission>

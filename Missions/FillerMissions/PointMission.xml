@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pointMission" activeCheck="false">
+
+<goals>
+<goal type="filedeletion" target="pointWhitelist" file="authenticator.dll" path="Whitelist"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Actions/PointAction.xml</missionStart>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Classified Development">
+Someone has requested access to the PointClicker development server for an exclusive behind the scenes look at PointClicker.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>Classified Development</subject>
+<body>Your first mission, #PLAYERNAME#! Better make it count. 
+Right, so basically what you're going to do is gain access to PointClicker's development server. You've heard of PointClicker, right? Anyways, that's what the guy requested, so we have to go through with it.
+After doing a little snooping around, I found that the development server is blocked by a whitelist server. What you're going to do is disable the whitelist.
+Deleting the authentiator file that controls the whitelist should be enough.
+Good luck!
+-Coel</body>
+<attachments>
+<note title="Mission Details">Break into PointClicker's servers
+Find your way to the whitelist server
+Disable the whitelist by deleting the authenticator file.</note>
+<link comp="pointClicker"/>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="yusa3" activeCheck="false">
+
+<goals>
+<goal type="getstring" target="EAdmin"/>
+<goal type="getstring" target="tens86"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Invading_the_80s.ogg</missionStart>
+<missionEnd>addFlags:Yusa3</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Yusa - Desperation Final">
+Yusa has to do something for someone she holds close to her heart.</posting>
+
+<email>
+<sender>Yusa</sender>
+<subject>Yusa - Desperation Final</subject>
+<body>Thank you for helping me with this.
+From the last investigation into Kellis, I found out where a working prototype firmware patch for their pacemaker system was.
+Now the issue is finding out how to access the pacemaker to update the system. Each Kellis Biotech pacemaker comes with an admin override.
+I want to find this admin override, so I can update my brother's pacemaker system so he can be saved.
+The first prototype of the patch was uploaded to a man named Eamon Greene's pacemaker. I suggest you look there as a start.
+When you find them, send them to me as seperate strings.
+Please help me find this,
+-Yusa</body>
+<attachments>
+<note title="Mission Details">Help Yusa save her brother.
+Investigate Kellis Biotech.
+Find admin username and passwords.
+Attach them as seperate strings.</note>
+<link comp="medical"/>
+</attachments>
+</email>
+</mission>

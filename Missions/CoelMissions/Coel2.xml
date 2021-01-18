@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="coel2" activeCheck="false">
+
+<goals>
+<goal type="filedeletion" target="psylanceLogs" file="Coel_Logs_5.dat" path="home/hacklogs/Coel"/>
+<goal type="filedeletion" target="psylanceLogs" file="Coel_Logs_6.dat" path="home/hacklogs/Coel"/>
+<goal type="filedeletion" target="psylanceLogs" file="Coel_Logs_7.dat" path="home/hacklogs/Coel"/>
+<goal type="filedeletion" target="psylanceLogs" file="Coel_Logs_8.dat" path="home/hacklogs/Coel"/>
+<goal type="filedeletion" target="psylanceLogs" file="Coel_Logs_9.dat" path="home/hacklogs/Coel"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Intellectual_Malfunction.ogg</missionStart>
+<missionEnd suppress="true">loadConditionalActions:Actions/Coel2End.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Coel - Cover-up Contd.">
+Coel needs help covering something up that could be potentially dangerous for her.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>Coel - Cover-up Contd.</subject>
+<body>You know how I said I was off the grid in Pacific Air's eyes?
+Ehehe, well, that's not entirely true. Turns out Pacific Air wasn't the only one keeping an eye on my... activities.
+There's this group called Psylance. They deal with cybersecurity and whatnot. I thought they had been silenced by one of my colleagues from Bibliotheque, but nope.
+I'm gonna have you go through Pacific Air one more time to get to Psylance.
+Once you get in, delete all traces of Coel from Psylance's servers.
+Good luck!
+-Coel</body>
+<attachments>
+<note title="Mission Details">Help Coel delete all traces of her activities.
+Investigate Psylance.
+Remove all traces of Coel.</note>
+<link comp="pacificAirMainframe"/>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="yusaFinal" activeCheck="true">
+
+<goals>
+<goal type="HasFlag" target="A_Yusa:DEAD"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/DeathAction.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>K</sender>
+<subject>A_YUSA DEAD</subject>
+<body>You shouldn't be seeing this.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="eamonGreene" handle="Greede" firstName="Eamon" lastName="Greene" isMale="true">
+  <Birthplace name="Auckland" />
+  <Degrees>
+    <Degree uni="Auckland University" gpa="3.3">Masters of Computer Science</Degree>
+    <Degree uni="Auckland University" gpa="3.1">Bachelor of Digital Design</Degree>
+  </Degrees>
+  <DOB>09/12/1984 22:00:00</DOB>
+  <Medical>
+    <Blood>O+</Blood>
+    <Height>178</Height>
+    <Allergies>Peanuts</Allergies>
+    <Perscription>Dysopyramide x3 daily for Heartrate regulation</Perscription>
+    <Notes>Patient suffers from atrial fibrillation. Was recommended to be fitted with a pacemaker to ensure patient does not suffer sudden heart attacks.
+    
+References:
+. 
+. 
+Pacemaker connection ID: 202.4.121.229
+Pacemaker maintenance: 203.19.252.152
+. 
+.
+Extra Details:
+Successful test subject of the Kellis Biotech Pacemaker 2.11 firmware patch.
+    </Notes>
+  </Medical>
+</Person>

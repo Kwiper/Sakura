@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="yusaMission" activeCheck="false">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="The Hero Requests a Job">
+Some small-time actor has asked to upload his resume to Hollygood.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>The Hero Requests a Job</subject>
+<body>You should not be seeing this. This is Yusa's mission. If you are seeing this, then something went horribly wrong. You should run screaming.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

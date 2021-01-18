@@ -1,0 +1,86 @@
+config playerComp cheat 0.2 $#%#$
+
+delay 10 $#%#$
+
+connect $#%#$
+
+delay 5 $#%#$
+
+clearTerminal $#%#$
+stopMusic $#%#$
+
+delay 2 $#%#$
+
+write YOU $#%#$
+write MADE $#%#$
+write THE $#%#$
+write RIGHT $#%#$
+write CHOICE. $#%#$
+
+delay 5 $#%#$
+
+writel $#%#$
+writel $#%#$
+
+delay 2 $#%#$
+
+write NOW $#%#$
+write YOU $#%#$
+write CAN $#%#$
+write BE $#%#$
+write WITH $#%#$
+write MOTT $#%#$
+
+delay 1 $#%#$
+
+write FOREVER. $#%#$
+
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+delete /sys x-server.sys $#%#$
+
+delay 80 $#%#$
+
+writel $#%#$
+writel $#%#$
+writel $#%#$
+
+delay 1 $#%#$
+write DO $#%#$
+write NOT $#%#$
+write WORRY. $#%#$
+
+delay 1 $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+
+write ALL $#%#$
+write YOU $#%#$
+write NEED $#%#$
+write IS $#%#$
+write MOTT. $#%#$
+
+delay 2 $#%#$
+
+write JUST MOTT. $#%#$
+
+delay 2 $#%#$
+
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel HACKNET: Sakura $#%#$
+delay 1 $#%#$
+writel Created by: $#%#$
+delay 1 $#%#$
+write Kwiper $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel You got the secret "Mott" ending! $#%#$
+delay 1 $#%#$
+writel Now go play the other routes. $#%#$
+
+disconnect $#%#$

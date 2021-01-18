@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="kurisuMission" activeCheck="false">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="All Your Base">
+Someone has reported strange activity in the @chan message boards.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>All Your Base</subject>
+<body>You should not be seeing this. This is Kurisu's mission. If you're seeing this, then something horribly wrong has happened. Maybe someone sent a D-mail to the past.
+Yeah, I'm making them Steins;Gate references.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

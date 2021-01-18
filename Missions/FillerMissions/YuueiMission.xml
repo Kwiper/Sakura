@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="yuueiMission" activeCheck="false">
+
+<goals>
+<goal type="AddDegree" owner="Mei Hakuno" degree="Masters in Engineering" uni="Yuuei Academy" gpa="3.0"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Edge_of_Tomorrow.ogg</missionStart>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="My Engineer Academia">
+Someone has requested to add a university degree to the university database.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>My Engineer Academia</subject>
+<body>Alrighty, #PLAYERNAME#.
+For this one, looks like you're gonna be giving someone a university degree. The client's name is Mei Hakuno. She's a student of engineering at Yuuei Academy.
+She has requested that you give her a Masters in Engineering from Yuuei Academy, with a GPA of 3.0. Sounds simple enough.
+I'll link you to the academic archive as well as Mei's computer.
+Have fun,
+-Coel</body>
+<attachments>
+<note title="Mission Details">Add a university degree for Mei Hakuno.
+Mei Hakuno
+Masters in Engineering
+Yuuei Academy
+3.0</note>
+<link comp="academic"/>
+<link comp="meiComp"/>
+</attachments>
+</email>
+</mission>

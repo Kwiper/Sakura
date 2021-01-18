@@ -1,0 +1,34 @@
+config playerComp futureHub 0.2 $#%#$
+
+connect $#%#$
+
+delay 3 $#%#$
+
+clearTerminal $#%#$
+stopMusic $#%#$
+
+delay 5 $#%#$
+
+writel Connection established $#%#$
+write . $#%#$
+write . $#%#$
+write . $#%#$
+
+delay 5 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+
+writel YOU KNOW TOO MUCH $#%#$
+delay 2 $#%#$
+writel THIS IS GOODBYE $#%#$
+delay 2 $#%#$
+writel FOREVER $#%#$
+
+delay 2 $#%#$
+
+instanttrace $#%#$
+
+startMusic $#%#$
+
+disconnect $#%#$

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="iniMission">
+
+<goals>
+<goal type="getstring" target="MySpoon"/>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Initiation">Kurisu wants me to go through an initiation of sorts. Alright then.</posting>
+
+<email>
+<sender>Kurisu</sender>
+<subject>Initiation</subject>
+<body>This is your little task before you get to join Sakura.
+
+I've attached a link to an ePhone. Your job is to hack into that ePhone and find me the admin password.
+This is such an easy task, I'd be surprised if you managed to fuck it up somehow.
+
+-Kurisu</body>
+
+<attachments>
+<note title="Mission Details">I have to hack into an ePhone and find the admin password. Sounds easy enough.</note>
+<link comp="iniPhone"/>
+</attachments>
+</email>
+</mission>

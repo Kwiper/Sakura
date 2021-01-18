@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="yusa1" activeCheck="false">
+
+<goals>
+<goal type="fileupload" target="yusaDrop" file="Firmware_Patch_2.11_Research.docx" path="home" destTarget="yusaDrop" destPath="Drop/Uploads"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Invading_the_80s.ogg</missionStart>
+<missionEnd>loadConditionalActions:Actions/Yusa1End.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Yusa - Desperation">
+Yusa has to do something for someone she holds close to her heart.</posting>
+
+<email>
+<sender>Yusa</sender>
+<subject>Yusa - Desperation</subject>
+<body>Thank you for doing this, #PLAYERNAME#.
+This is a hard for me to put into words, but I think I trust you enough to tell you the situation.
+My brother is in the hospital being treated for an accident that happened about a year ago. He's been in there for such a long time, when I contacted the hospital they said he was stable with his pacemaker, but they didn't have the resources to keep him like that for much longer.
+I've been trying to find something that might be able to keep him stable indefinitely, at least until they can treat him properly.
+I've been looking into various things and found something about a biotech company that may just have what I need.
+Please, #PLAYERNAME#, can you help me look into this?
+If you find anything, like research notes or something, please upload them to a server I'll link you to.
+I'll be in your care,
+-Yusa</body>
+<attachments>
+<note title="Mission Details">Help Yusa find a treatment for her brother
+Look into a biotech company
+Find research notes
+Upload them to drop point</note>
+<link comp="kellisBiotechNews"/>
+<link comp="yusaDrop"/>
+</attachments>
+</email>
+</mission>

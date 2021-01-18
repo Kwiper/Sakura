@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="kurisu1" activeCheck="false">
+
+<goals>
+<goal type="getstring" target="162.25.13.5"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Gate_of_Steiner_Synthwave_Remix_.ogg</missionStart>
+<missionEnd>loadConditionalActions:Actions/Kurisu1End.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Kurisu - Investigation">
+Kurisu wants help investigating the location of someone.</posting>
+
+<email>
+<sender>Kurisu</sender>
+<subject>Kurisu - Investigation</subject>
+<body>I never expected you to do this with me, #PLAYERNAME#. I'm thankful for the help.
+Over the past few months, I've been investigating someone from my past. His name is Shou Makise.
+I've been tracking him down. I need help in finding him.
+I'll link you to the last place I could track him at, from about a year ago.
+If you find anything, like an IP, please let me know.
+-Kurisu</body>
+<attachments>
+<note title="Mission Details">Help Kurisu track down Shou Makise
+Investigate the link she has provided
+Attach anything that may help her, like an IP</note>
+<link comp="zernWeb"/>
+</attachments>
+</email>
+</mission>

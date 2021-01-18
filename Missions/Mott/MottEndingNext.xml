@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="mottEndingNext" activeCheck="true">
+
+<goals>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Actions/MottAction.xml</missionStart>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>Mott</sender>
+<subject>That's right</subject>
+<body>That's right, #PLAYERNAME#.
+Reject Coel.
+Don't join Sakura.
+You belong with Mott.
+Mott will be with you, always.
+All you need is Mott.
+Just Mott.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

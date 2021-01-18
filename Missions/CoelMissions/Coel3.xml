@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="coel3" activeCheck="false">
+
+<goals>
+<goal type="filedeletion" target="fbiWatchlist" file="Coel.dat" path="home/cybercrime"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Intellectual_Malfunction.ogg</missionStart>
+<missionEnd>addFlags:Coel3</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Coel - Coverup Final">
+Coel needs help covering something up that could be potentially dangerous for her.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>Coel - Coverup Final</subject>
+<body>I'm now safe from the eyes of Pacific Air and Psylance.
+There's one more place we have to hit before I'm completely scott-free. The American government.
+Obviously, this one's more risky because if we get caught, well let's just say the punishment's gonna be a bit more severe.
+Get into the White House's network and delete all traces of Coel.
+Good luck,
+-Coel</body>
+<attachments>
+<note title="Mission Details">Help Coel coverup her past activities.
+Infiltrate the White House's network.
+Delete all traces of Coel.</note>
+<link comp="governmentWeb"/>
+</attachments>
+</email>
+</mission>

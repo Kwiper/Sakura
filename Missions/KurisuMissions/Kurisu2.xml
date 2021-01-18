@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="kurisu2" activeCheck="false">
+
+<goals>
+<goal type="getstring" target="25.81.42.6"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Gate_of_Steiner_Synthwave_Remix_.ogg</missionStart>
+<missionEnd>loadConditionalActions:Actions/Kurisu2End.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Kurisu - Investigation Contd.">
+Kurisu wants help investigating the location of someone.</posting>
+
+<email>
+<sender>Kurisu</sender>
+<subject>Kurisu - Investigation Contd.</subject>
+<body>Thanks for joining me on this bout.
+Last time, an IP was found. Upon further investigation, this IP led me to the next clue as to Shou Makise's whereabouts.
+Problem is, I can't go about this alone. I need your help in investigating this second clue.
+I believe I'm getting closer to finding him. If you can find any other important IPs regarding Shou Makise, please let me know.
+I'm counting on you,
+-Kurisu</body>
+<attachments>
+<note title="Mission Details">Help Kurisu further investigate Shou Makise's whereabouts.
+Investigate the network.
+Upload any important IPs concerning Shou Makise</note>
+<link comp="miraiHub"/>
+</attachments>
+</email>
+</mission>

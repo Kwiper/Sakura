@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bankMission" activeCheck="false">
+
+<goals>
+<goal type="getstring" target="557A-85F1-58Q0-291L"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Edge_of_Tomorrow.ogg</missionStart>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Breaking the Bank">
+A client has requested that we find the bank account number of someone.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>Breaking the Bank</subject>
+<body>This one's a bit more on the illegal side. It's time to rob a bank!
+Well, not really. A client wants us to find the bank account number of a man named Alex Broodman. Sounds simple enough.
+I'll link you to the bank's account management. The client did the hard part for us. All you have to do is find the bank account number of a man named Alex Broodman and attach it here.
+Have fun,
+-Coel</body>
+<attachments>
+<note title="Mission Details">Break into the bank's system
+Access Alex Broodman's account
+Attach account number</note>
+<link comp="bank"/>
+</attachments>
+</email>
+</mission>

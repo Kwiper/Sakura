@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="yusa2" activeCheck="false">
+
+<goals>
+<goal type="fileupload" target="yusaDrop" file="Firmware_Patch_2.11_PROTOTYPE.rar" path="home" destTarget="yusaDrop" destPath="Drop/Uploads"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Invading_the_80s.ogg</missionStart>
+<missionEnd>loadConditionalActions:Actions/Yusa2End.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Yusa - Desperation Contd.">
+Yusa has to do something for someone she holds close to her heart.</posting>
+
+<email>
+<sender>Yusa</sender>
+<subject>Yusa - Desperation Contd.</subject>
+<body>I've been looking more into what could save my brother.
+Kellis Biotech was probably the best place to look for something to save him. And I think there could be more to find.
+If we can find evidence of a prototype that could save him, that would mean the world to me.
+Please help me with this, #PLAYERNAME#. If you find anything, upload it to my drop server.
+-Yusa</body>
+<attachments>
+<note title="Mission Details">Help Yusa find something to save her brother.
+Investigate Kellis Biotech.
+Look for evidence of a prototype.</note>
+<link comp="yusaDrop"/>
+<link comp="kellisRD"/>
+</attachments>
+</email>
+</mission>

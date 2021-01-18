@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="kurisu3" activeCheck="false">
+
+<goals>
+<goal type="fileupload" target="kurisuDrop" file="Makise_Shou.docx" path="home" destTarget="kurisuDrop" destPath="Drop/Uploads"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Gate_of_Steiner_Synthwave_Remix_.ogg</missionStart>
+<missionEnd>addFlags:Kurisu3</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Kurisu - Investigation Final">
+Kurisu wants help investigating the location of someone.</posting>
+
+<email>
+<sender>Kurisu</sender>
+<subject>Kurisu - Investigation Final</subject>
+<body>I believe this is the final stretch in finding Shou Makise.
+The last clue led to a place called Future Foundation. It's a tech company, much like what Zern and Mirai were before it.
+There's a pattern here. I believe Future Foundation holds the last piece of the puzzle surrounding him.
+If you can find any files about Shou Makise, please send them to me.
+-Kurisu</body>
+<attachments>
+<note title="Mission Details">Help Kurisu find information about Shou Makise.
+Investigate Future Foundation.
+Send any files regarding Shou Makise to Kurisu.</note>
+<link comp="kurisuDrop"/>
+<link comp="futureHub"/>
+</attachments>
+</email>
+</mission>

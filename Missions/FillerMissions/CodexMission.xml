@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="codexMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="getstring" target="L1b74rD" />
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Synthwave_C.ogg</missionStart>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Libtard">
+A client by the name of James G. (refused to provide last name) asked us to find the password of his computer after he was locked out. He says it's all because of a group called Codec.
+</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>Libtard</subject>
+<body>This is your first mission, #PLAYERNAME#!
+As such, this one shouldn't be too difficult. A guy contacted us saying his password had been changed by a group called Codec. 
+He wants us (in this case, you) to try to find his password through Codec. He's provided a link to their little hideout IRC channel. That might be a good place to start.
+Anyways, once you find the password, post it on here.
+Good luck!
+-Coel</body>
+<attachments>
+<note title="Mission Details">Find James G.'s computer password
+Codec's IRC should be a good place to start.</note>
+<link comp="codecIRC"/>
+</attachments>
+</email>
+</mission>

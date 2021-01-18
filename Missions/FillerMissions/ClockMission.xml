@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="clockMission" activeCheck="false">
+
+<goals>
+<goal type="fileupload" target="aqueousComp" file="Clock.exe" path="bin" destTarget="aqueousComp" destPath="bin"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Free_From_the_Matrix.ogg</missionStart>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Tick Tock">
+A client has asked us to retrieve a special program for him</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>Tick Tock</subject>
+<body>This is a bit of an unorthodox one,
+A client who goes by Aqueous has requested that we retrieve a special program for him. Apparently, his friend managed to get it somehow but refuses to give with him.
+Bit like little children, to be honest.
+Anyways, try to get the program and upload it to the client's bin folder.
+Cheers,
+-Coel</body>
+<attachments>
+<note title="Mission Details">Retrieve a special program for the client
+Upload it to his bin folder.</note>
+<link comp="aqueousComp"/>
+<link comp="privIRC"/>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="mei" handle="Hatsumei" firstName="Mei" lastName="Hakuno" isMale="false" forceHasNeopals="true">
+
+<Degrees>
+<Degree uni="Yuuei Academy" gpa="3.2">Bachelor of Engineering</Degree>
+</Degrees>
+
+</Person>

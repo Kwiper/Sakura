@@ -1,0 +1,214 @@
+<CustomFaction name="Sakura" id="sakura" playerVal="0">
+
+<!--Joining the faction-->
+<Action ValueRequired="1">
+  <RunFunction FunctionName="setHubServer:sakuraHub"/>
+  <AddConditionalActions Filepath="Actions/IniActions.xml" DelayHost="sakuraHub" Delay="99.0"/>
+  <ChangeAlertIcon Target="sakuraHub" Type="irchub" DelayHost="sakuraHub" Delay="0.0"/>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="-10">I don't think they're coming.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="-9">Just wait.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="-8">You said that last time.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="-7">I said just wait!</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="-6">I've known #PLAYERNAME# for a long time now. There's no way I'd be ditched like this.</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="-5">We've waited long enough</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="-4">Just trust me on this one.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="-3">Right.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="-2">I shall go prepare myself some tea while you wait.</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="-1">This is pointless.</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="sakuraHub" Delay="0.1">!ANNOUNCEMENT!</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="sakuraHub" Delay="0.3">User "#PLAYERNAME#" has joined the server.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="4.0">I told you guys!</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="10.0">Huh. So you did.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="13.0">Err, hi.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="16.0">(They really didn't think I'd join, huh?)</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="20.0">Well don't just sit there, guys!</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="23.0">Say hi to our new member!</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="27.0">Welcome to the crew, #PLAYERNAME#</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="31.0">Woah, woah, I didn't say anything about joining it just yet.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="33.0">I'm back.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="36.0">Oh, hello there. Welcome to the group, #PLAYERNAME#</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="39.0">(Did these people just totally ignore what I said?)</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="42.0">We should have #PLAYERNAME# go through a little initiation, don't you think?</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="45.0">Yes, I agree.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="48.0">Um... Initiation?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="51.0">Ooh, yes! Let's do that!</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="55.0">Kuris-tina! Prepare the trials!</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="59.0">My name's not Kuris-tina! There's no "-tina!"</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="63.0">Come on, your name's just an anime reference. Let me make references of my own!</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="66.0">(Kuris-tina, huh? Kuris-tina... Christina. Hehe. I should use that.)</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="70.0">Jeez... Anyways.</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="73.0">What you have to do is...</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="76.0">Uh... Find the password to someone's ePhone!</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="80.0">You just came up with that on the spot, didn't you...</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="83.0">Shut up! Just find the password to someone's ePhone!</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="86.0">Is that it?</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="90.0">Got a problem with that?</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="93.0">No, no problem at all.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="95.0">(Jeez, what's her deal?)</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="99.0">Good. I've put the link and stuff on the mission listing.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="102.0">(The what now?)</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="105.0">Don't disappoint me.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="108.0">Got it... Christina.</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="111.0">...eh?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="115.0">Christina. Hahaha!</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="119.0">Good luck, @#PLAYERNAME#</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="124.0">Wait, I'm Christina!?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="128.0">Took you long enough.</AddIRCMessage>
+</Action>
+
+<!--After the initiation-->
+<Action ValueRequired="2">
+<AddConditionalActions Filepath="Actions/MissionSet1.xml" DelayHost="sakuraHub" Delay="40.0"/>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="5.0">Yay! You did it!</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="10.0">Hmph... Guess you did it.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="13.0">Hey, Kurisu...</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="16.0">What?</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="20.0">Did the phone by any chance... happen to be your phone?</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="24.0">I... uh... no, that would be stupid.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="28.0">You could not have made that any less obvious.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="30.0">OKAYYYY</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="33.0">Now that #PLAYERNAME#'s all initiated and stuff</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="36.0">We can go back to doing what we do best!</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="40.0">I agree. We've gotten a few requests in since #PLAYERNAME# joined.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="43.0">Uh, requests?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="46.0">Didn't I tell you?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="49.0">People give us requests to do things for them.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="52.0">You know, find out who's cheating on who</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="55.0">Find secret cults</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="57.0">You what</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="59.0">Find phone passwords, that sorta thing!</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="62.0">Sometimes we do things for each other, as well.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="65.0">I see.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="69.0">(This could be fun.)</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="72.0">Just find something that interests you!</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="75.0">Roger that.</AddIRCMessage>
+</Action>
+
+<!--After the first "filler" mission-->
+<Action ValueRequired="3">
+<AddMissionToHubServer MissionFilepath="Missions/KurisuMissions/Kurisu1.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/CoelMissions/Coel1.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/YusaMissions/Yusa1.xml" TargetComp="sakuraHub" />
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="2.0">Woohoo! @#PLAYERNAME#</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="6.0">Well, I did it.</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="10.0">Well, looks like you managed to complete one without completely messing up.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="14.0">Jeez, what's with that attitude?</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="17.0">I just wouldn't want you to fail your first real mission is all.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="21.0">So does this mean you'll be staying with us?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="24.0">Of course! #PLAYERNAME# wouldn't say no to us, right?</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="27.0">Hey wait just a minute</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="31.0">So that means you won't be staying with us?</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="33.0">I didn't say that.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="36.0">(I was really only going to humour these people for a bit...)</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="39.0">(But at the same time, I really did enjoy doing that one mission.)</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="42.0">(Besides, these girls really seem to want me on their team.)</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="45.0">(I can't very well say no to these girls, can I?)</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="49.0">I suppose I'll stick around.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="51.0">For real?!</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="54.0">I'm really glad</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="57.0">I suppose this means an official welcome is in order.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="60.0">We already did that.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="64.0">Well, #PLAYERNAME#, I sincerely hope you enjoy your stay here.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="67.0">Yeah, thanks.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="70.0">Right, well, back to work guys!</AddIRCMessage>
+</Action>
+
+<!--After the first "date" mission-->
+<Action ValueRequired="4">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+<DeleteFile TargetComp="pacificAirWhitelist" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="sakuraHub" Delay="0.0"/>
+</Action>
+
+<!--After the second "filler" mission-->
+<Action ValueRequired="5">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+<AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddMissionToHubServer MissionFilepath="Missions/KurisuMissions/Kurisu2.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/CoelMissions/Coel2.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/YusaMissions/Yusa2.xml" TargetComp="sakuraHub" />
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="5.0">@channel</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="8.0">This better be important.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="11.0">Trust me, it is</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="14.0">You're gonna appreciate this.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="17.5">What is it, Coel?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="21.0">Right, well as I was doing my little thing, I came across a pretty nifty program.</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="25.0">Oh. You're right, I do like this.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="29.0">Introducing the latest in Sakura hacking technology!</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="32.0">TorrentStreamInjector.exe!</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="36.0">Um. What does it do?</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="39.0">Glad you asked, young apprentice!</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="41.0">What.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="43.0">This latest development will allow you to crack BitTorrent ports!</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="46.0">Cool.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="48.0">Nice.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="50.0">Awesome.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="53.0">Jeez, guys, I thought you'd all be more excited!</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="56.0">Anyways. I've uploaded it to your systems.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="59.0">Back to work!</AddIRCMessage>
+</Action>
+
+<!--After the second "date" mission-->
+<Action ValueRequired="6">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+</Action>
+
+<!--After the final "filler" mission-->
+<Action ValueRequired="7">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+<AddMissionToHubServer MissionFilepath="Missions/KurisuMissions/Kurisu3.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/CoelMissions/Coel3.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/YusaMissions/Yusa3.xml" TargetComp="sakuraHub" />
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="5.0">ALL PRAISE THE MIGHTY CLOCK!</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="8.0">What.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="11.0">Nothing.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="14.0">Just felt like saying that.</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="17.0">Right...</AddIRCMessage>
+  <AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="20.0">There is something seriously wrong with you...</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="23.0">Yep.</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="26.0">Agreed.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="29.0">Really, even you, Yusa?!</AddIRCMessage>
+  <AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="31.0">Sorry.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="34.0">:I</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="38.0">Back to work, then.</AddIRCMessage>
+  <AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="41.0">That's my line!</AddIRCMessage>
+</Action>
+
+<!--After the final "date" mission (Load all the ending actions)-->
+<Action ValueRequired="8">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+<!--Coel-->
+<AddConditionalActions Filepath="EndingActions/CoelEndings/CCC.xml"/>
+<AddConditionalActions Filepath="EndingActions/CoelEndings/CCK.xml"/>
+<AddConditionalActions Filepath="EndingActions/CoelEndings/CCY.xml"/>
+<AddConditionalActions Filepath="EndingActions/CoelEndings/CKC.xml"/>
+<AddConditionalActions Filepath="EndingActions/CoelEndings/CYC.xml"/>
+<AddConditionalActions Filepath="EndingActions/CoelEndings/KCC.xml"/>
+<AddConditionalActions Filepath="EndingActions/CoelEndings/YCC.xml"/>
+<!--Kurisu-->
+<AddConditionalActions Filepath="EndingActions/KurisuEndings/CKK.xml"/>
+<AddConditionalActions Filepath="EndingActions/KurisuEndings/KCK.xml"/>
+<AddConditionalActions Filepath="EndingActions/KurisuEndings/KKC.xml"/>
+<AddConditionalActions Filepath="EndingActions/KurisuEndings/KKK.xml"/>
+<AddConditionalActions Filepath="EndingActions/KurisuEndings/KKY.xml"/>
+<AddConditionalActions Filepath="EndingActions/KurisuEndings/KYK.xml"/>
+<AddConditionalActions Filepath="EndingActions/KurisuEndings/YKK.xml"/>
+<!--Yusa-->
+<AddConditionalActions Filepath="EndingActions/YusaEndings/CYY.xml"/>
+<AddConditionalActions Filepath="EndingActions/YusaEndings/KYY.xml"/>
+<AddConditionalActions Filepath="EndingActions/YusaEndings/YCY.xml"/>
+<AddConditionalActions Filepath="EndingActions/YusaEndings/YKY.xml"/>
+<AddConditionalActions Filepath="EndingActions/YusaEndings/YYC.xml"/>
+<AddConditionalActions Filepath="EndingActions/YusaEndings/YYK.xml"/>
+<AddConditionalActions Filepath="EndingActions/YusaEndings/YYY.xml"/>
+<!--Harem-->
+<AddConditionalActions Filepath="EndingActions/HaremEndings/CKY.xml"/>
+<AddConditionalActions Filepath="EndingActions/HaremEndings/CYK.xml"/>
+<AddConditionalActions Filepath="EndingActions/HaremEndings/KCY.xml"/>
+<AddConditionalActions Filepath="EndingActions/HaremEndings/KYC.xml"/>
+<AddConditionalActions Filepath="EndingActions/HaremEndings/YCK.xml"/>
+<AddConditionalActions Filepath="EndingActions/HaremEndings/YKC.xml"/>
+</Action>
+
+
+</CustomFaction>

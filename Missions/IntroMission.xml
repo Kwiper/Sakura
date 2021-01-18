@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+
+  <goals>
+<goal type="delay" time="1000.0"/>
+  </goals>
+
+  <nextMission>NONE</nextMission>
+
+<branchMissions>
+<branch>Missions/Mott/MottEnding.xml</branch>
+</branchMissions>
+
+<email>
+<sender>Coel</sender>
+<subject>Re: Sakura</subject>
+<body>Come on, #PLAYERNAME#!
+You promised me you would at least check it out! I even told the other two I'd bring you along!
+What's wrong with joining a group? You shy or something?
+Please just check it out. For me. I tried very hard to create this group.
+
+-Coel
+</body>
+    <attachments>
+      <link comp="sakuraHub"/>
+    </attachments>
+  </email>
+</mission>

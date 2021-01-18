@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="coel1" activeCheck="false">
+
+<goals>
+<goal type="filedeletion" target="pacificAirLogs" file="Coel_Log.dat" path="home/logs"/>
+<goal type="filedeletion" target="pacificAirMainframe" file="Coel_Log_1.dat" path="home/logs"/>
+<goal type="filedeletion" target="pacificAirMainframe" file="Coel_Log_2.dat" path="home/logs"/>
+<goal type="filedeletion" target="pacificAirMainframe" file="Coel_Log_3.dat" path="home/logs"/>
+<goal type="filedeletion" target="pacificAirMainframe" file="Coel_Log_4.dat" path="home/logs"/>
+</goals>
+
+<missionStart suppress="true">playCustomSong:Music/Intellectual_Malfunction.ogg</missionStart>
+<missionEnd>loadConditionalActions:Actions/Coel1End.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Coel - Cover-up">
+Coel needs help covering something up that could be potentially dangerous for her.</posting>
+
+<email>
+<sender>Coel</sender>
+<subject>Coel - Cover-up</subject>
+<body>Glad you're helping me with this, #PLAYERNAME#!
+So you know how a while back, like a year ago, I suddenly went off and joined some group and ran into a bit of trouble? Yeah, well, that's coming back and biting me in the ass.
+Part of what happened involved some shenanigans with an airport. I think there are still records of my activity there.
+I need help getting into the airport systems and deleting all traces of Coel, AKA me!
+Thanks for the help!
+-Coel</body>
+<attachments>
+<note title="Mission Details">Help Coel delete traces of her prior activities
+Navigate your way through the airport's systems
+Delete all traces of Coel</note>
+<link comp="pacificAirWeb"/>
+</attachments>
+</email>
+</mission>

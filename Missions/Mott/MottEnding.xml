@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="mottEnding" shouldIgnoreSenderVerification="true">
+
+<goals>
+<goal type="getstring" target="no"/>
+</goals>
+
+<nextMission IsSilent="true">Missions/Mott/MottEndingNext.xml</nextMission>
+
+<email>
+<sender>Mott</sender>
+<subject>Mott Ending</subject>
+<body>You aren't supposed to see this.</body>
+<attachments>
+</attachments>
+</email>
+</mission>
