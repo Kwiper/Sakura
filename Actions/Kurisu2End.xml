@@ -1,0 +1,28 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:Kurisu2"/>
+<AddConditionalActions Filepath="Actions/MissionSet3.xml" DelayHost="sakuraHub" Delay="58.0"/>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="3.0">@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="6.0">What?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="9.0">Umm</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="11.0">Thanks, this helps a lot.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="14.0">No problem. You think you're close to finding him now?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="17.0">I believe it is the final stretch.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="20.0">Weelll I dunno about you guys</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="23.0">But covering my tracks is hard work.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="26.0">I need tea.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="29.0">Hard work for you as well, Yusa?</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="32.0">Yes.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="35.0">But worth it.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="38.0">So you must be close too, then.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="41.0">Hey, Kurisu</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="44.0">How'd it feel to have #PLAYERNAME# all to yourself?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="47.0">What are you talking about?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="50.0">Nothing.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="52.0">Nothing at all.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="55.0">You know I would have helped everyone at the same time if I could.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="58.0">Yeah, yeah, I know.</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,40 @@
+<ConditionalActions>
+
+<OnConnect target="coelDM">
+<LoadMission MissionName="Missions/CoelMissions/CoelFinal.xml"/>
+<AddAsset FileName="WHSequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
+<RunFunction FunctionName="setAssetServer:coelDM"/>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="5.0">Oh, good, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="8.0">You came.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="11.0">Yeah, got your message. What's up?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="14.0">Well, you see...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="17.0">My past records</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="20.0">They're almost gone.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="23.0">There's one more place that needs to be hit before I'm safe.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="27.0">Let me guess... You want me to do it.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="30.0">Only if you want to.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="34.0">I'll do it.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="37.0">Really?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="40.0">Awesome!</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="44.0">This means a lot to me</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="47.0">I'll do anything for you.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="50.0">You're sweet.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="53.0">But anyways</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="56.0">The place you're hitting is gonna be difficult.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="59.0">I'm ready.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="61.0">Alright.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="64.0">The place you're hitting is the White House.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="67.0">In America.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="70.0">Wow, you weren't lying</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="75.0">I've uploaded a program to your computer that will allow you to get in and out of the White House.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="78.0">It's called WHSequencer</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="81.0">Once you run it, you'll be connected to the White House server</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="84.0">Get in, delete anything related to me</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="88.0">And get the hell out of there.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="92.0">Got it.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="95.0">Good luck, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="98.0">I believe in you.</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

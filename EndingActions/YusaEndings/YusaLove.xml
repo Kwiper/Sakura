@@ -1,0 +1,37 @@
+<ConditionalActions>
+
+<OnConnect target="yusaDM">
+<RunFunction FunctionName="setAssetServer:yusaDM"/>
+<RunFunction FunctionName="playCustomSong:Music/Drops.ogg"/>
+<LoadMission MissionName="Missions/YusaMissions/YusaFinal.xml"/>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="5.0">Oh, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="8.0">How can I help you?</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="11.0">Oh, yes, um.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="14.0">As you know, I've been looking for a way to save my brother.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="17.0">Well...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="21.0">The prototype files you sent me a little while back led me to finding a working prototype of the pacemaker patch!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="24.0">Oh my god, that's great!</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="27.0">I've uploaded the patch file to my brother's pacemaker, but...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="30.0">I want you to apply it.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="34.0">I want you to be the one to save my brother.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="37.0">Are you serious?</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="40.0">Yes.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="42.0">I'm sure of it.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="45.0">You have to be the one.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="48.0">Well, if you insist</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="51.0">I'd be honoured.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="54.0">Really?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="57.0">Really. For you.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="60.0">I could kiss you!</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="63.0">Ok.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="65.0">!ATTACHMENT:link#%#KBT-PM 3.25 REG#19241#%#202.6.141.219</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="68.0">Everything's all set up on it.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="71.0">All you have to do is login to the pacemaker's remote monitor</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="74.0">Apply the patch that says 2.11</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="77.0">And it should all be alright.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="80.0">Understood.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="83.0">Login details are EAdmin tens86</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="86.0">Good luck!</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,62 @@
+<ConditionalActions>
+
+<OnConnect target="coelDM">
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="5.0">Nice one, #PLAYERNAME#!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="8.0">Whew...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="11.0">I did it.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="14.0">I knew you would.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="17.0">Say, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="20.0">What's up?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="23.0">What did you mean when you said...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="26.0">That you'd do anything for me?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="29.0">Exactly what it means.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="32.0">If it's for you, I'll do anything.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="35.0">But why?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="38.0">Why would you go that far for me?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="41.0">Because we've known each other for a while now.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="44.0">Joining Sakura made me care for you a lot more than before.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="47.0">Really?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="50.0">Really.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="54.0">I don't know what to say...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="57.0">You don't have to say anything.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="60.0">...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="63.0">Before you go any further, I have to say something.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="66.0">This incident wasn't the only thing I've been running from.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="69.0">I've been running for as long as I can remember</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="72.0">And I'm scared.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="75.0">I can't get too close to people for long periods of time because of it.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="78.0">What do you call Sakura, then?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="81.0">Is that not "getting close to people?"</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="84.0">I thought it would be</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="87.0">But I realized I'm still scared</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="90.0">No matter where I run, I feel like my past'll catch up to me somehow.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="93.0">Then I'll run with you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="96.0">No matter where you go, I'll be there.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="99.0">How could you say that?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="102.0">That's just asking to drastically change your life.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="105.0">Because I love you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="108.0">I don't care about that.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="111.0">Besides, not like my life was any better before.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="114.0">Ha.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="117.0">And I'm sure Yusa and Kurisu would worry if you just suddenly left.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="120.0">We'll be there for you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="123.0">That's a promise.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="126.0">Thank you</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="129.0">You're right.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="132.0">I can't just leave the people who care about me</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="135.0">And the people I care about.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="138.0">And #PLAYERNAME#...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="141.0">Yes?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="coelDM" Delay="144.0">I love you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="147.0">(Coel asking me to join Sakura was probably the best thing to ever happen to me.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="150.0">(I had fun with Yusa and Kurisu)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="153.0">(And most of all, Coel)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="156.0">(Who finally opened up her feelings to me.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="159.0">(I don't know if or where she'll run away again)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="162.0">(I just know that I'll be there for her)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="165.0">(She is my future.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="168.0">(And my future is looking beautiful.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="coelDM" Delay="171.0">!ATTACHMENT:link#%#Credits#%#167.194.132.9</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

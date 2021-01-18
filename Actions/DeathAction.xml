@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Silent.ogg"/>
+<AddConditionalActions Filepath="EndingActions/YusaEndings/YusaLoveFinal.xml" DelayHost="sakuraHub" Delay="0.0"/>
+</Instantly>
+
+</ConditionalActions>

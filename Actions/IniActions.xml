@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/IniMission.xml" TargetComp="sakuraHub" />
+</Instantly>
+
+</ConditionalActions>

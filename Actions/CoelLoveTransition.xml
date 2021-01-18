@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<CancelScreenBleedEffect />
+<SwitchToTheme ThemePathOrName="HacknetPurple" FlickerInDuration="3.0" DelayHost="sakuraHub" Delay="1.0" />
+<KillExe DelayHost="sakuraHub" Delay="0.0" ExeName="*" />
+<RunFunction FunctionName="playCustomSong:Music/Drops.ogg"/>
+<AddConditionalActions Filepath="EndingActions/CoelEndings/CoelLoveFinal.xml" DelayHost="sakuraHub" Delay="0.0"/>
+</Instantly>
+
+</ConditionalActions>

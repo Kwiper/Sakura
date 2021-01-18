@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="Kurisu1,Kurisu2,Yusa3">
+<AddConditionalActions Filepath="EndingActions/KurisuEndings/KurisuLike.xml" DelayHost="sakuraHub" Delay="5.0"/>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="5.0">@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="8.0">I have something I need to talk to you about.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="11.0">In private.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="14.0">!ATTACHMENT:link#%#Kurisu Private Message#%#33.67.12.24</AddIRCMessage>
+</HasFlags>
+
+</ConditionalActions>

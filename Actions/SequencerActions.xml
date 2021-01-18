@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Turbo_Killer.ogg"/>
+<SwitchToTheme ThemePathOrName="HacknetWhite" FlickerInDuration="3.0" DelayHost="sakuraHub" Delay="18.7" />
+<StartScreenBleedEffect AlertTitle="HACK THE WHITE HOUSE" CompleteAction="Actions/SequenceFailActions.xml"
+                        TotalDurationSeconds="104.5" 
+                        DelayHost="sakuraHub" 
+                        Delay="18.7">HACK INTO THE WHITE HOUSE
+  FIND FILES ON COEL
+  DELETE!</StartScreenBleedEffect>
+</Instantly>
+
+</ConditionalActions>

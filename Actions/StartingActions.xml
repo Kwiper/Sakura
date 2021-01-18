@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <OnConnect target="sakuraHub">
+    <RunFunction FunctionName="setFaction:sakura" FunctionValue="0" />
+    <RunFunction FunctionName="addRankSilent" FunctionValue="1" />
+  </OnConnect>
+
+</ConditionalActions>

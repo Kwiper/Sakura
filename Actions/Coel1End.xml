@@ -1,0 +1,34 @@
+<ConditionalActions>
+
+<Instantly>
+<AddConditionalActions Filepath="Actions/MissionSet2.xml" DelayHost="sakuraHub" Delay="66.0"/>
+<RunFunction FunctionName="addFlags:Coel1"/>
+<AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="3.0">@#PLAYERNAME# Hey, awesome job!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="5.0">Yeah, thanks</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="8.0">Woo, at this rate I'll be off the radar in no time!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="11.0">What did you even do...?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="14.0">All in due time.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="18.0">Looks like you guys were successful.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="21.0">Yeah. You?</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="24.0">I have hopes that what I found will lead to his life being saved.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="27.0">Phew, I'm back.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="30.0">And how did our resident tsundere do?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="33.0">What?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="36.0">Anyways, while it isn't conclusive</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="39.0">I believe I'm in the right track to finding him.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="42.0">(Wow, the other two seemed to have to go through a lot as well.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="45.0">Kinda wish I'd helped you two as well, now</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="48.0">Do not worry about it.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="51.0">Yeah, it's whatever.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="54.0">Anyways, I found a couple things you guys might want.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="57.0">So did I.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="60.0">Yeah, here as well!</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="63.0">Let's share our spoils!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="66.0">Sharing is caring.</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

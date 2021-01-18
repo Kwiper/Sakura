@@ -1,0 +1,71 @@
+<ConditionalActions>
+
+<OnConnect target="yusaDM">
+<RunFunction FunctionName="playCustomSong:Music/Drops.ogg"/>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="5.0">#PLAYERNAME#!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="8.0">(What do I tell her...?)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="11.0">(Do I tell her I failed?)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="14.0">(I can't tell her like this...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="17.0">(I can't tell her that...)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="20.0">(I can't tell her I killed her brother...)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="23.0">(She's going to find out anyways...)</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="26.0">#PLAYERNAME#?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="28.0">DAMN IT ALL!</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="31.0">#PLAYERNAME#, what happened?!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="34.0">Yusa... I...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="37.0">I'm sorry...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="40.0">I failed...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="43.0">No...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="46.0">I didn't do it in time...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="48.0">Don't say that...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="50.0">It's all my fault</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="52.0">#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="55.0">I... I killed your brother...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="58.0">I...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="61.0">I realize you must be angry at me...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="64.0">I'm not...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="66.0">I can't stay here...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="69.0">I thought I could show...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="72.0">That I loved you by doing this...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="75.0">It's all my fault.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="76.0">#PLAYERNAME#!</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="79.0">I...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="82.0">It's not your fault.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="85.0">It's all mine, I waited too long</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="88.0">I brought you into this</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="91.0">Please, I'm the one that needs to be blamed...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="94.0">I'm the one who killed him...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="97.0">Yusa...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="100.0">Please, just...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="103.0">Leave me be for now...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="106.0">It's because I love you that I made you do this.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="109.0">It's because I love you that...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="112.0">It's all my fault</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="115.0">Just go...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="118.0">You must hate me...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="121.0">No.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="124.0">I can't accept this.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="127.0">I'm also at fault for this.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="130.0">Which is why I'm staying here with you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="133.0">Because I care too much for you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="136.0">Because I love you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="139.0">I will be with you wherever and whenever.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="142.0">That is a promise.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="145.0">So please, let me stay with you.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="150.0">#PLAYERNAME#...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="153.0">Can we just...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="156.0">Stay here and talk?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="159.0">Nothing would make me happier.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="162.0">I want to talk to you about my brother.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="166.0">Of course.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="yusaDM" Delay="168.0">Thank you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="172.0">(Tragedy struck Yusa at the last moment.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="175.0">(It was then that I realized how much I cared for her.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="178.0">(How much I wanted to support her.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="181.0">(I vowed to never leave her side, and I intend to keep that promise.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="184.0">(She is my future.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="187.0">(And my future is beautiful.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="yusaDM" Delay="190.0">!ATTACHMENT:link#%#Credits#%#167.194.132.13</AddIRCMessage>  
+</OnConnect>
+
+</ConditionalActions>

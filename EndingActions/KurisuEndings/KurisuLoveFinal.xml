@@ -1,0 +1,52 @@
+<ConditionalActions>
+
+<OnConnect target="kurisuDM">
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="5.0">#PLAYERNAME#!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="8.0">It's ok, I'm fine.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="11.0">I was so worried</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="14.0">I don't know what I would have done if...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="17.0">If they'd gotten you like they got my dad...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="20.0">I'm fine, Kurisu, please don't be worried</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="23.0">I know, but... I don't know how I would have lived myself if...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="26.0">If you died as well.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="29.0">It was just an attack on my computer</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="31.0">I won't go anywhere.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="34.0">I know, but I can't help but be worried for you</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="37.0">Ever since you joined Sakura, I don't know...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="40.0">You've just helped me so much</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="43.0">You helped me find closure on my father</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="46.0">I think...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="49.0">I think I fell in love.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="52.0">Oh god, I just said that.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="55.0">Kurisu...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="58.0">Yeah?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="61.0">You don't have to worry about a thing.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="64.0">I'll always be here</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="67.0">I'll always be here for Sakura</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="70.0">I'll always be here for Coel, and Yusa</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="73.0">But most of all, I'll always be here for you.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="75.0">What...?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="78.0">Because I love you.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="81.0">What?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="84.0">How?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="87.0">After everything you've done for me...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="90.0">I haven't done anything for you at all</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="93.0">That doesn't matter to me.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="96.0">All that matters is that I want to be with you.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="99.0">I...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="102.0">Sorry, did I say something wrong?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="105.0">NO! You didn't, it's just</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="108.0">That makes me really happy, #PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="111.0">I love you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="115.0">(In the end, joining Sakura was perhaps the best decision I ever made.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="118.0">(I got to meet a wonderful group of girls.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="121.0">(I had fun interacting with them.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="124.0">(But most importantly, I met the love of my life.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="127.0">(I don't care where Kurisu and I end up, so long as we're together.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="130.0">(All I know is...)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="133.0">(I see my future)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="136.0">(And she is beautiful.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="139.0">!ATTACHMENT:link#%#Credits#%#167.194.132.11</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,17 @@
+<ConditionalActions>
+
+<OnConnect target="pointWhitelist">
+<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="5.0">@channel</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="8.0">Found something that might help you guys out.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="10.0">What is it?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="13.0">New port cracker.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="15.0">Don't worry about downloading it. I've uploaded it to your machines already.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="18.0">Sugoi</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="20.0">...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="22.0">...</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="25.0">Yeah, got it. Won't say it again.</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>
+

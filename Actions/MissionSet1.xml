@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/FillerMissions/CodexMission.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/FillerMissions/PointMission.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/FillerMissions/SpyderMission.xml" TargetComp="sakuraHub" />
+</Instantly>
+
+</ConditionalActions>

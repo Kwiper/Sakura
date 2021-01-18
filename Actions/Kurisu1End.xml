@@ -1,0 +1,37 @@
+<ConditionalActions>
+
+<Instantly>
+<DeleteFile TargetComp="pacificAirMainframe" FilePath="home/logs" FileName="Coel_Log_1.dat"/>
+<DeleteFile TargetComp="pacificAirMainframe" FilePath="home/logs" FileName="Coel_Log_2.dat"/>
+<DeleteFile TargetComp="pacificAirMainframe" FilePath="home/logs" FileName="Coel_Log_3.dat"/>
+<DeleteFile TargetComp="pacificAirMainframe" FilePath="home/logs" FileName="Coel_Log_4.dat"/>
+<AddConditionalActions Filepath="Actions/MissionSet2.xml" DelayHost="sakuraHub" Delay="63.0"/>
+<RunFunction FunctionName="addFlags:Kurisu1"/>
+<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="3.0">@#PLAYERNAME# Hey, thanks, this really helps.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="6.0">Yeah, no problem, it was fun... Christina.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="8.0">My name's not Christina!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="10.0">Hehe</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="13.0">Phew, that was a tough one.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="16.0">I really could have used some help on that one.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="19.0">But you managed to hide your traces?</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="22.0">Yep! Coel no longer exists in Pacific Air's eyes!</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="25.0">Managed to find what you were looking for, @Yusa?</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="28.0">It's only in the development stages right now, but I'll keep looking around.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="30.0">He might be saved with this, though, I have hopes.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="33.0">That's good.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="36.0">(Wow, seems like the other two had a lot to deal with as well.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="38.0">I wish I could have helped you two as well.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="41.0">Ah, don't worry about it.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="44.0">Hey, that reminds me.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="48.0">I found something cool as I was... covering my tracks.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="51.0">Oh, I found a couple of things too!</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="54.0">So did we.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="57.0">Why don't we do a little exchange, then?</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="60.0">I agree.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="63.0">Sharing is caring.</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

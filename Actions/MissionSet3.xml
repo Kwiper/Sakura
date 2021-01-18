@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/FillerMissions/ClockMission.xml" TargetComp="sakuraHub" />
+<AddMissionToHubServer MissionFilepath="Missions/FillerMissions/YusaMission.xml" TargetComp="sakuraHub" AssignmentTag="Yusa"/>
+<AddMissionToHubServer MissionFilepath="Missions/FillerMissions/KurisuMission2.xml" TargetComp="sakuraHub" AssignmentTag="Kurisu"/>
+</Instantly>
+
+</ConditionalActions>

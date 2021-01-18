@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Synthwave_C.ogg"/>
+<AddConditionalActions Filepath="Actions/PointActionNext.xml" DelayHost="sakuraHub" Delay="0.0"/>
+</Instantly>
+
+</ConditionalActions>

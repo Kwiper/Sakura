@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="Yusa1,Coel2,Coel3">
+<AddConditionalActions Filepath="EndingActions/CoelEndings/CoelLike.xml" DelayHost="sakuraHub" Delay="5.0"/>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="5.0">@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="8.0">I have something I need to talk to you about.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="11.0">In private.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="14.0">!ATTACHMENT:link#%#Coel Private Message#%#33.67.12.23</AddIRCMessage>
+</HasFlags>
+
+</ConditionalActions>

@@ -1,0 +1,30 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:Yusa2"/>
+<AddConditionalActions Filepath="Actions/MissionSet3.xml" DelayHost="sakuraHub" Delay="66.0"/>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="3.0">@#PLAYERNAME# This helps so much!</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="6.0">It's not the prototype itself, but it proves it exists!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="9.0">I'm glad. You should be able to find it using that.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="12.0">Yes!</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="15.0">I need coffee</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="18.0">So much hard work</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="21.0">Take me with you</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="24.0">Looks like you two had fun with your things.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="27.0">Shut up.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="30.0">I was successful in the end, at least.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="33.0">Yeah.</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="35.0">Having help was nice.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="38.0">Stop bragging!</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="42.0">Hehe</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="45.0">I didn't take you for the type to brag</AddIRCMessage>
+<AddIRCMessage Author="Yusa" TargetComp="sakuraHub" Delay="48.0">Bit hard to read someone when your only interactions with them are over text.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="52.0">Point.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="sakuraHub" Delay="56.0">Yeah, why didn't you help us?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="59.0">This is a trap. I refuse to answer.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="62.0">And I can't be in multiple places at once.</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="sakuraHub" Delay="64.0">You just answered.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="sakuraHub" Delay="66.0">Shush.</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

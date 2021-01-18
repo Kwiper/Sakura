@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/MottHack.txt" 
+                  SourceComp="cheat" 
+                  TargetComp="playerComp" 
+                  RequireLogsOnSource="false" 
+                  RequireSourceIntact="false"/>
+</Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,59 @@
+<ConditionalActions>
+
+<OnConnect target="kurisuDM">
+<RunFunction FunctionName="playCustomSong:Music/Drops.ogg"/>
+<RunFunction FunctionName="setAssetServer:kurisuDM"/>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="5.0">You actually came.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="8.0">Of course, why wouldn't I?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="11.0">I don't know.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="14.0">I just</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="17.0">What's wrong?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="20.0">First, let me tell you what my entire investigation has been about.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="23.0">I've been looking for a man named Shou Makise.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="25.0">He suddenly disappeared last year.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="28.0">The reason why I've been trying to hard to look for him is...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="31.0">He's my dad.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="34.0">Your dad?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="38.0">Yeah. He and I probably didn't have the best relationship</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="42.0">But I still loved him</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="45.0">So, did you find him?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="48.0">I...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="52.0">#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="55.0">You're the one person I trust the most.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="58.0">You've helped me so much now.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="61.0">So it's only fair that you know.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="64.0">Shou Makise...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="67.0">My dad...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="70.0">He was caught up in some kind of conspiracy involving Zern, Mirai and Future Foundation.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="73.0">And so he was killed.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="76.0">I'm... I'm so sorry.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="79.0">You've been searching for so long only to find that out...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="81.0">I know...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="84.0">But you know what?</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="87.0">I'm also proud.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="90.0">He died unraveling a dangerous conspiracy.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="93.0">He didn't die for no reason.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="96.0">You're right.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="99.0">But now, I just...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="102.0">I don't know what to do.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="105.0">It feels like my entire reason for doing things is just... gone.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="108.0">It's ok, Kurisu.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="112.0">I'm here for you whenever you need me.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="116.0">Because I care for you a lot.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="120.0">I...</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="123.0">Thank you, #PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="126.0">I care for you a lot, too.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="129.0">I don't know what my life would be like right now if I hadn't joined Sakura.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="131.0">If I hadn't met you.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="134.0">Haha.</AddIRCMessage>
+<AddIRCMessage Author="Kurisu" TargetComp="kurisuDM" Delay="137.0">I'm glad I met you, too, #PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="140.0">(This was the moment when I realized)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="143.0">(Sakura was perhaps the best decision I made in my life.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="146.0">(I got to meet a wonderful group of girls)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="149.0">(And I met the one I want to be with.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="152.0">(Looking forward, my future...)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="155.0">(Is looking up.)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="kurisuDM" Delay="158.0">!ATTACHMENT:link#%#Credits#%#167.194.132.10</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>
