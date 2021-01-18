@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacificAirMail"
+          name="Pacific Air Mail Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<account username="Lethbridge" password="PA-3282" type="MAIL"/>
+
+<ports>21, 22, 6881, 80, 192, 25</ports>
+<portsForCrack val="7"/>
+
+<mailServer name="Pacific Air" color="45,178,100" generateJunk="true">
+<email recipient="Lethbridge" sender="Psyco Servers Inc." subject="Whitelist">
+To whom it may concern,
+Your Psyco whitelist server has been created and configured.
+Please access the whitelist and make any changes required.
+
+182.252.142.2
+
+Sincerely,
+Psyco Servers Inc.
+</email>
+</mailServer>
+
+</Computer>

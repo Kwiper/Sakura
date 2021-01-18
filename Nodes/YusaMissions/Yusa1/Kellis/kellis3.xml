@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="kellis3">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="A Special Announcement from Kellis Biotech">
+A couple of years ago, we introduced a revolutionary pacemaker system. It has kept thousands of patients around the world alive and stable, something we are very proud of. However, as with every piece of technology, it's become outdated.
+Fortunately, we at Kellis Biotech will soon be rolling out a firmware patch that will update every single pacemaker system we've created in the past TWO DECADES! Furthermore, this patch will be available for free for every hospital, saving costs.
+</posting>
+
+<email>
+<sender>Kwiper</sender>
+<subject>Error</subject>
+<body>If you're reading this, then shit's broken and you should panic.</body>
+<attachments></attachments>
+</email>
+</mission>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacificAirWeb"
+          name="Pacific Air Web Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
+<proxy time="1"/>
+<trace time="100"/>
+
+<dlink target="pacificAirLogs"/>
+
+<LogoDaemon Name="Pacific Air" ShowsTitle="false" textColor="255,255,255,255" LogoImagePath="Docs/PacificAir.png"></LogoDaemon>
+
+</Computer>

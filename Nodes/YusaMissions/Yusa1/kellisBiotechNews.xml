@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisBiotechNews"
+          name="Kellis Biotech News"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="kellis"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="3"/>
+
+<dlink target="kellisHub"/>
+
+<variableMissionListingServer name="Kellis Biotech News" 
+                              iconPath="Docs/EduLogo.png" 
+                              articleFolderPath="Nodes/YusaMissions/Yusa1/Kellis" 
+                              color="120,200,2" 
+                              assigner="false" 
+                              public="true" 
+                              title="Kellis Biotech News"/>
+
+</Computer>

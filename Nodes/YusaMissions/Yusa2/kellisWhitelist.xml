@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisWhitelist"
+          name="Kellis Biotech Whitelist Server"
+          ip="29.26.78.2"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 104, 443</ports>
+<portsForCrack val="6"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+
+</Computer>

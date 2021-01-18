@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisIRC"
+          name="Kellis Biotech Admin IRC Channel"
+          ip="66.102.59.67"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<account username="dave" password="KBT9281" type="ADMIN"/>
+
+<ports>22, 25, 80, 104, 443</ports>
+<portsForCrack val="5"/>
+
+<dlink target="kellisRelay"/>
+
+<IRCDaemon themeColor="67,204,148" name="Kellis Biotech Admin" needsLogin="true">
+<user name="dave" color="210,19,120"/>
+<user name="james" color="67,29,223"/>
+<user name="henry" color="192,255,221"/>
+
+<post user="dave">Ok. I've moved the prototype files to the storage server.</post>
+<post user="james">Alright.</post>
+<post user="henry">Got a link?</post>
+<post user="dave">You should already have it.</post>
+<post user="henry">Yeah, well, people always tend to lose IPs to things whenever they're on IRC channels.</post>
+<post user="james">What?</post>
+<post user="henry">I don't know, it's just a thing that keeps happening.</post>
+<post user="henry">I'm sure someone watching us right now would know what I'm talking about.</post>
+<post user="james">We're not being watched...</post>
+<post user="dave">Anyways.</post>
+<post user="dave">52.162.87.23</post>
+<post user="dave">There it is.</post>
+</IRCDaemon>
+
+</Computer>

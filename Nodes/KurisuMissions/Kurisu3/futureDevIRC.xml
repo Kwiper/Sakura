@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="futureDevIRC"
+          name="Future Foundation Development IRC Channel"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 1433, 443, 21</ports>
+<portsForCrack val="6"/>
+
+<file path="home/IRC" name="Users.txt">artan #RANDOM_IP#
+xavier 44.252.75.1</file>
+
+<IRCDaemon themeColor="232,45,232" name="Future Foundation Development IRC Channel" needsLogin="false">
+<user name="artan" color="52,63,251"/>
+<user name="xavier" color="102,52,71"/>
+
+<post user="artan">You think it's done?</post>
+<post user="artan">The RTSP crack?</post>
+<post user="xavier">Should be.</post>
+<post user="xavier">I wonder why they asked us to make it though.</post>
+<post user="artan">Who knows.</post>
+<post user="xavier">It's secure on my end, though, don't worry. No way anyone's getting it.</post>
+</IRCDaemon>
+
+</Computer>

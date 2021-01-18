@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="miraiCEO"
+          name="Mirai Technologies CEO Workstation"
+          ip="217.152.78.1"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<account username="Luther" password="Lucina" type="ADMIN"/>
+
+<ports>21, 443, 6881, 1433</ports>
+<portsForCrack val="200"/>
+
+<encryptedFile path="home" name="Makise.dec" extension=".docx" ip="124.25.231.67" header="Shou Makise" pass="Mirai328">Like Zern before us, Shou Makise has found out too much.
+We were too late to catch him. He escaped our grasp.
+He was last seen at Future Foundation. 25.81.42.6</encryptedFile>
+<encryptedFile path="home" name="Mirai-Zern.dec" extension=".docx" ip="192.168.1.1" header="Mirai - Zern Collaboration" pass="Mirai283">#BINARY#</encryptedFile>
+
+</Computer>

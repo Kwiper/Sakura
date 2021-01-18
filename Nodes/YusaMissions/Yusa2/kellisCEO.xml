@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisCEO"
+          name="Kellis Biotech CEO Workstation"
+          ip="66.251.52.6"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>6881, 22, 25, 80, 443, 104</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+
+<file path="Development_Schedule.xlsx">#BINARY#</file>
+
+<eosDevice name="Dave ePhone 7x" id="kellisceoPhone" icon="ePhone2" empty="true" passOverride="alpine">
+<mail username="dave@kbtmail.com" pass="KBT-CEO"/>
+</eosDevice>
+
+<Memory>
+<Commands>
+<Command>connect 66.102.59.67</Command>
+<Command>login</Command>
+<Command>dave</Command>
+<Command>KBT9281</Command>
+</Commands>
+</Memory>
+
+</Computer>

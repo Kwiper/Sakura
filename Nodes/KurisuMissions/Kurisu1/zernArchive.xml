@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zernArchive"
+          name="ZERN Archive Server"
+          ip="145.242.23.25"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="5"/>
+<trace time="150"/>
+<proxy time="1"/>
+<firewall level="6" solution="ARCHIVE"/>
+
+<DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="85,0,150" Name="ZERN Database">
+<GitCommitEntry>
+<EntryNumber>4425</EntryNumber>
+<Message>Shou Makise's last location: 162.25.13.5</Message>
+<UserName>Pyxis</UserName>
+<SourceIP>192.168.1.1 (Localhost)</SourceIP>
+</GitCommitEntry>
+<GitCommitEntry>
+<EntryNumber>4414</EntryNumber>
+<Message>Shou Makise has handed in his letter of resignation. Not that it matters.</Message>
+<UserName>Pyxis</UserName>
+<SourceIP>192.168.1.1 (Localhost)</SourceIP>
+</GitCommitEntry>
+<GitCommitEntry>
+<EntryNumber>4401</EntryNumber>
+<Message>Shou Makise knows too much.</Message>
+<UserName>Pyxis</UserName>
+<SourceIP>192.168.1.1 (Localhost)</SourceIP>
+</GitCommitEntry>
+</DatabaseDaemon>
+
+</Computer>

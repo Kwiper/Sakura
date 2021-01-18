@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="medical"
+          name="International Medical Database"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+
+<MedicalDatabase/>
+
+</Computer>

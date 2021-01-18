@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusRepo"
+          name="Morpheus Inc. Repository"
+          ip="25.29.153.2"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="5"/>
+<trace time="200"/>
+<tracker/>
+
+<file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+<file path="bin" name="MemorySuite.txt">The Memory Suite provides two programs that will create and read dumps of memory.
+MemForensics will read these memory dumps.
+MemDumpGenerator generates them.</file>
+
+</Computer>

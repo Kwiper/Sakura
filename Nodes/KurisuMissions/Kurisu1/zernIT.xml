@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zernIT"
+          name="ZERN IT Server"
+          ip="144.225.242.2"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="3"/>
+<firewall level="-1"/>
+<trace time="-1"/>
+
+<file path="home" name="IT.txt">This is the main IT server for ZERN.
+If you have any issues, contact Jaegar, head of IT.</file>
+
+</Computer>

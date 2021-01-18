@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisJames"
+          name="James Workstation"
+          ip="128.27.122.25"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="1">
+
+<ports>21, 25, 80, 443</ports>
+<portsForCrack val="3"/>
+
+<encryptedFile path="home/torrented" name="SSLTrojan.dec" extension=".exe" ip="128.27.122.25" header="SSLTrojan">#SSL_EXE#</encryptedFile>
+<file path="home" name="mail.txt">In case I forget:
+email: james@kbtmail.com KBT-104</file>
+<file path="home/torrented/anime" name="Wolfensteins;Gate">#BINARY#</file>
+<file path="home/torrented/anime" name="KonoSUPA">#BINARY#</file>
+<file path="home/torrented/anime" name="One Kick Woman">#BINARY#</file>
+
+</Computer>

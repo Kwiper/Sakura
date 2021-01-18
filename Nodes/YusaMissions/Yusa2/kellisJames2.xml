@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisJames2"
+          name="James Proxy Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>22, 25, 443, 6881, 1433</ports>
+<portsForCrack val="5"/>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+<file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+<file path="bin" name="KBTPortTest.txt">This is a prototype program that will hack into medical ports.</file>
+
+<file path="home" name="PortCrackers.txt">Why does an IT guy need so many port crackers?
+Because there are some idiots who lose their passwords so I have to hack into their computers to get them.</file>
+
+</Computer>

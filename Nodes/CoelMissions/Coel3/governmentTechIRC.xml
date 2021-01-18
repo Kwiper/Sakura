@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="governmentTechIRC"
+          name="US Government Federal Tech Support IRC Channel"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 443, 6881, 554</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="6"/>
+
+<dlink target="maronComp"/>
+<dlink target="stuartComp"/>
+<dlink target="johnsonComp"/>
+
+<IRCDaemon themeColor="0,0,255" name="Federal Tech Support IRC Channel" needsLogin="true">
+<user name="maron" color="255,0,0"/>
+<user name="stuart" color="0,0,255"/>
+<user name="johnson" color="255,255,255"/>
+
+<post user="stuart">Hey Maron, how's Riley doing these days?</post>
+<post user="maron">He's been very busy with work.</post>
+<post user="maron">Working at a top game studio makes him stay there very late.</post>
+<post user="stuart">Yeah, so long as your marriage isn't affected.</post>
+<post user="maron">He gets free access to the games he works on, sometimes he plays them for hours when he's not working lol</post>
+<post user="maron">It's fine though, so long as he's happy.</post>
+<post user="johnson">Hey guys, you know what the link for the DOJ server is?</post>
+<post user="maron">No</post>
+<post user="stuart">I should have it on my end, let me find it.</post>
+<post user="johnson">Thanks.</post>
+<post user="stuart">Nope, never mind, it got deleted somehow.</post>
+<post user="johnson">Well shit.</post>
+<post user="johnson">Guess I'll have to find it the hard way.</post>
+</IRCDaemon>
+
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="miraiWhitelist"
+          name="Mirai Technologies Whitelist Server"
+          ip="255.12.26.67"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<adminPass pass="VGc92SJl"/>
+
+<ports>21, 22, 25, 80, 1433, 6881</ports>
+<portsForCrack val="7"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+
+</Computer>

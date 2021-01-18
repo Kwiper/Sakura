@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="governmentWhitelist"
+          name="US Government Whitelist Server v2.33"
+          ip="192.28.156.1"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 443, 554, 6881, 1433</ports>
+<portsForCrack val="8"/>
+<firewall level="-1"/>
+<proxy time="-1"/>
+<trace time="-1"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+
+</Computer>

@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisMail"
+          name="Kellis Biotech Mail Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<account username="james" password="KBT-104" type="MAIL"/>
+<account username="dave" password="KBT-CEO" type="MAIL"/>
+
+<ports>21, 22, 1433, 6881</ports>
+<portsForCrack val="5"/>
+
+
+<mailServer name="Kellis Biotech" color="120,200,2" generateJunk="true">
+<email recipient="james" sender="DEC" subject="Decryption Suite">
+Greetings, Mr. James,
+We have recieved your request for access to the DEC decryption suite.
+Please access the link below to access the suite.
+
+28.154.225.1
+
+Sincerely,
+Doug, Customer Service at DEC</email>
+<email recipient="james" sender="henry" subject="Encryption of Research">
+Hey, James,
+I think it'd be a good idea if we encrypted the R and D notes, you know, in case someone comes and decides to steal them.</email>
+
+<email recipient="dave" sender="henry" subject="Re:Prototype">
+Hey, Dave,
+Completely understandable. Move the prototype files to a safe server. We wouldn't want these to get leaked early.
+-Henry</email>
+<email recipient="dave" sender="james" subject="Re:Whitelist">
+Hey, Dave,
+Sure, whitelist server is below.
+Don't worry, it's perfectly unhackable.
+29.26.78.2
+-James</email>
+
+</mailServer>
+
+
+</Computer>

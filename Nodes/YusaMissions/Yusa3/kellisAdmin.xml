@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisAdmin"
+          name="Kellis Biotech Administrator Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="kellis"
+          type="4">
+
+<ports>21, 22, 25, 80, 443, 1433</ports>
+<portsForCrack val="6"/>
+<trace time="100"/>
+
+<encryptedFile path="home" name="Pacemaker_Admin_Override.dec" extension=".txt" ip="240.166.21.1" header="Pacemaker Admin Override" pass="KBT-PoIL34Nn4">Pacemaker admin override for all Kellis Biotech systems is:
+EAdmin
+tens86</encryptedFile>
+
+<Memory>
+<Data>
+<Block>Connection from: #PLAYER_IP#</Block>
+<Block>Connection from: 55.255.121.6</Block>
+</Data>
+</Memory>
+
+</Computer>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="stuartComp"
+          name="Stuart Workstation"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>25, 554, 443, 6881, 21</ports>
+<portsForCrack val="5"/>
+
+<Memory>
+<Data>
+<Block>Department of Justice:</Block>
+<Block>44.36.86.212</Block>
+</Data>
+</Memory>
+
+</Computer>

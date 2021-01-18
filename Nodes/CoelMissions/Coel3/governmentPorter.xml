@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="governmentPorter"
+          name="Porter Workstation"
+          ip="224.61.47.2"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 554, 443</ports>
+<portsForCrack val="4"/>
+
+<file path="home" name="email.txt">porter.doj@usamail.com
+DOj11KSmaA2</file>
+
+</Computer>

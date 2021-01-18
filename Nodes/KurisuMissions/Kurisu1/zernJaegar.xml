@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zernJaegar"
+          name="Jaegar Laptop"
+          ip="15.242.25.6"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="1">
+
+<ports>21, 80, 25</ports>
+<portsForCrack val="3"/>
+<trace time="100"/>
+
+<file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+
+<customthemefile path="sys" name="Core_x-server.sys" themePath="Themes/CoreTheme.xml"/>
+
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="governmentMail"
+          name="US Government Mail Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<account username="maron.ts" password="PLso928CMs" type="MAIL"/>
+<account username="porter.doj" password="DOj11KSmaA2" type="MAIL"/>
+
+<ports>443, 6881, 1433, 25</ports>
+<portsForCrack val="5"/>
+
+<mailServer name="US Government" color="0,0,255" generateJunk="true">
+<email recipient="maron.ts" sender="stuart.ts" subject="Whitelist Maintenance">
+Hey, Maron,
+Here's the link for the whitelist, see if you can fix it?
+192.28.156.1
+-Stuart</email>
+<email recipient="porter.doj" sender="FBI" subject="Watchlist">
+Good afternoon, Mr. Porter,
+Regarding your earlier inquiry on the watchlist for cyber-criminals, here's the link that has every single one of our targets.
+See what the DOJ can do.
+78.148.26.132
+-Sorel Rickman, FBI</email>
+</mailServer>
+
+</Computer>

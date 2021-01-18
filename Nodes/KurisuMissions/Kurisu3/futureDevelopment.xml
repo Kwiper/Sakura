@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="futureDevelopment"
+          name="Future Foundation Development Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 1433, 443</ports>
+<portsForCrack val="5"/>
+
+<dlink target="futureDevIRC"/>
+
+<file path="home" name="Prj_3445.rar">#BINARY#</file>
+<file path="home" name="Prj_3667.rar">#BINARY#</file>
+<file path="home" name="Prj_2014.rar">#BINARY#</file>
+
+</Computer>

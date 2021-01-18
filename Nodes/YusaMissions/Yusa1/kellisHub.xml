@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisHub"
+          name="Kellis Biotech Hub Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="4"/>
+<trace time="100"/>
+<proxy time="0.5"/>
+<firewall level="-1"/>
+
+<dlink target="kellisRD"/>
+<dlink target="kellisIT"/>
+<dlink target="kellisMail"/>
+
+</Computer>

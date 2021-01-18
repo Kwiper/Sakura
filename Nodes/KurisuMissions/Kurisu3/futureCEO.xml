@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="futureCEO"
+          name="Future Foundation CEO Workstation"
+          ip="39.27.126.65"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 554, 6881</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="6"/>
+
+<file path="home" name="Makise_Shou.docx">#BINARY#</file>
+<file path="home" name="Zern_Mirai_Future.docx">The Zern - Mirai Technologies - Future Foundation collaboration aims to bring to the world time travel.
+However, in order to prevent the wrong hands from using this, we will hold a monopoly on time travel. This is to ensure time does not get messed up.
+We are in our preliminary testing stages now.</file>
+<file path="home" name="Test_001.docx">Subject is dead. Mismatch.</file>
+<file path="home" name="Test_002.docx">Subject is dead. Mismatch.</file>
+<file path="home" name="Test_003.docx">Subject is dead. Mismatch.</file>
+<file path="home" name="Test_004.docx">Subject is dead. Mismatch.</file>
+
+</Computer>

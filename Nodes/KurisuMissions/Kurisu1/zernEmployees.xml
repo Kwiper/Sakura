@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zernEmployees"
+          name="ZERN Employee Log Server"
+          ip="144.152.12.15"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
+
+<file path="home" name="Important_Employees.txt">Pyxis - CEO: #RANDOM_IP#
+Jaegar - Head of IT: 15.242.25.6
+Makise - Head of R and D: [REDACTED]</file>
+<file path="home" name="Employee_List.txt">#BINARY#</file>
+
+</Computer>

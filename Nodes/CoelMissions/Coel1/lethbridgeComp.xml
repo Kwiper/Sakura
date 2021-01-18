@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lethbridgeComp"
+          name="Lethbridge Laptop"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="1">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="3"/>
+
+<eosDevice name="Lethbridge's ePhone 6x" id="lethbridgePhone" icon="ePhone2" empty="false" passOverride="alpine">
+<mail username="Lethbridge@pamail.com" pass="PA-3282"/>
+</eosDevice>
+
+<customthemefile path="sys" name="Core_x-server.sys" themePath="Themes/CoreTheme.xml"/>
+
+</Computer>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisHenry"
+          name="Henry Workstation"
+          ip="128.224.14.1"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="1">
+
+<ports>21, 22, 443</ports>
+<portsForCrack val="3"/>
+
+<file path="home" name="Firmware_2.11.txt">Password is Kellis-2114</file>
+<customthemefile path="sys" name="Core_x-server.sys" themePath="Themes/CoreTheme.xml"/>
+
+</Computer>

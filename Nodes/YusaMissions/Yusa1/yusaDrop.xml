@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="yusaDrop"
+          name="Yusa Drop Server"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22</ports>
+<portsForCrack val="0"/>
+
+<uploadServerDaemon name="Yusa Dropbox" folder="Drop" 
+                    needsAuth="false" color="204,116,212"/>
+
+</Computer>

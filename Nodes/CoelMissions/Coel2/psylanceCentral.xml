@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psylanceCentral"
+          ip="28.26.8.1"
+          name="Psylance Central Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 443, 6881</ports>
+<portsForCrack val="5"/>
+
+<dlink target="psylanceIRC"/>
+<dlink target="psylanceMail"/>
+
+<file path="home" name="Psylance_Logs_Archive">#BINARY#</file>
+<file path="home" name="Employee_List">#BINARY#</file>
+<file path="home" name="Network_Management">#BINARY#</file>
+
+<Memory>
+<Commands>
+<Command>dlink 28.26.8.1 58.71.34.8</Command>
+<Command>unlink 28.26.8.1 58.71.34.8</Command>
+</Commands>
+</Memory>
+
+<LogoDaemon Name="Psylance Central" ShowsTitle="true" TextColor="35,255,133, 200" LogoImagePath="Docs/Psylance.png">
+</LogoDaemon>
+
+</Computer>

@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacificAirMainframe"
+          name="Pacific Air Mainframe"
+          ip="39.15.27.142"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="5"/>
+<trace time="100"/>
+<proxy time="1"/>
+<firewall level="6" solution="PACIFICAIR"/>
+
+<admin type="fast" resetPassword="true" isSuper="false"/> 
+
+<file path="home/logs" name="Coel_Log_1.dat">#BINARY#</file>
+<file path="home/logs" name="Coel_Log_2.dat">#BINARY#</file>
+<file path="home/logs" name="Coel_Log_3.dat">#BINARY#</file>
+<file path="home/logs" name="Coel_Log_4.dat">#BINARY#</file>
+
+<file path="home/server" name="Server_Runtime.dll">#BINARY#</file>
+<file path="home/server" name="readme.txt">DO NOT delete Server_Runtime.dll.</file>
+
+<encryptedFile path="bin" name="PacificPortCrusher.dec" extension=".exe" ip="192.168.1.1" header="Pacific Port Crusher">#PACIFIC_EXE#</encryptedFile>
+
+<LogoCustomConnectDisplayDaemon logo="Docs/PacificAir.png" title="Docs/PacificAir.png" overdrawLogo="false" buttonAlignment="left" />
+
+<WhitelistAuthenticatorDaemon Remote="pacificAirWhitelist"/>
+
+<Memory>
+<Commands>
+<Command>dlink 39.15.27.142 28.152.35.1</Command>
+<Command>unlink 39.15.27.142 28.152.35.1</Command>
+</Commands>
+</Memory>
+
+</Computer>

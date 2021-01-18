@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisRolf"
+          name="Rolf Burgundy Workstation"
+          ip="240.166.21.1"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 443, 1433, 554</ports>
+<portsForCrack val="6"/>
+
+<file path="home" name="Introduction_Letter.docx">To whom it may concern,
+My name is Rolf Burgundy, I am the head of the Kellis Biotech maintenance team for KBT Pacemakers.
+For the five years I've worked at Kellis Biotech, I've made it my mission to make sure no KBT Pacemaker has failed on a patient. This has been met with overwhelming success for the most part, save for one incident a year back.
+</file>
+
+<eosDevice name="Rolf ePad 2" id="rolfTablet" icon="tablet" empty="true" passOverride="alpine">
+<note>Pacemaker Admin Override
+In order to make sure it is secure, we have encrypted the admin override file.
+Password to decrypt the file is KBT-PoIL34Nn4</note>
+<mail username="rolf.burgundy@jmail.com" pass="ImRolfBurgundy"/>
+</eosDevice>
+
+</Computer>

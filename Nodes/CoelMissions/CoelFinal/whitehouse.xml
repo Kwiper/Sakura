@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="whitehouse"
+          name="White House Central Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 6881, 554, 443</ports>
+<portsForCrack val="8"/>
+<proxy time="1"/>
+<firewall level="5" solution="WHITEHOUSE"/>
+<trace time="-1"/>
+
+<file path="home/watchlist" name="Coel.dat">#BINARY#</file>
+<file path="home/watchlist" name="#PLAYERNAME#.dat">#BINARY#</file>
+<file path="home/watchlist" name="Kaguya.dat">#BINARY#</file>
+<file path="home/watchlist" name="D3f4ult.dat">#BINARY#</file>
+
+<file path="home/democracy" name="Executive_orders.docx">#BINARY#</file>
+<file path="home/democracy" name="Government.docx">#BINARY#</file>
+
+</Computer>

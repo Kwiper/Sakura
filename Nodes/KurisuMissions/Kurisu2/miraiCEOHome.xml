@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="miraiCEOHome"
+          name="Luther L. Laptop"
+          security="3"
+          ip="124.25.231.67"
+          icon="laptop"
+          type="4">
+
+<ports>22, 443, 6881</ports>
+<portsForCrack val="3"/>
+
+<eosDevice name="Luther ePhone 5x" id="lutherPhone" icon="ePhone" empty="true" passOverride="1984">
+<note>Makise Files
+Mirai328</note>
+</eosDevice>
+
+<Memory>
+<Data>
+<Block>login: admin</Block>
+<Block>password: 1984</Block>
+</Data>
+</Memory>
+
+</Computer>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="faithlessComp"
+          name="faithless Battlestation"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1">
+
+<ports>22, 443, 6881, 1433</ports>
+<portsForCrack val="4"/>
+<proxy time="1"/>
+<firewall level="6" solution="FAITHLESS"/>
+
+<eosDevice name="faithless ePhone 4x" id="faithlessPhone" empty="false" passOverride="alpine">
+<mail username="faithless@psymail.com" pass="FAITHFUL"/>
+</eosDevice>
+
+</Computer>

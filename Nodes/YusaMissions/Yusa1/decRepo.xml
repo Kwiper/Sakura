@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decRepo"
+          name="DEC Storage"
+          ip="28.154.225.1"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 25, 80, 22</ports>
+<portsForCrack val="4"/>
+
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+<file path="bin" name="DECSuite.txt">The Decryption Suite consists of Decypher and DECHead.
+Decypher is used to decrypt encrypted files. If an encrypted file has a password, simply type the password after the file name.
+DECHead is used to track the origin of encrypted files.</file>
+
+</Computer>

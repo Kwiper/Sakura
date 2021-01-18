@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacificAirManagement"
+          name="Pacific Air Management Server"
+          ip="28.152.35.1"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>443, 22, 25, 80, 6881, 192</ports>
+<portsForCrack val="6"/>
+
+<dlink target="psylancePA"/>
+
+</Computer>

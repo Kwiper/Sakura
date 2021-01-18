@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="axolotlComp"
+          name="Axolotl Battlestation"
+          ip="55.255.121.6"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="7"/>
+<trace time="100"/>
+
+<file path="home" name="Requests.txt">Take down Penguin Zone - DONE
+Compromise a device - DONE
+Hack the NSA - ABORTED
+Euthanization - ABORTED</file>
+
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+
+</Computer>

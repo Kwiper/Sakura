@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psylanceWhitelist1"
+          name="Psylance Whitelist Server 1"
+          ip="58.71.34.8"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>443, 22, 6881, 80</ports>
+<portsForCrack val="4"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+<WhitelistAuthenticatorDaemon Remote="psylanceWhitelist2"/>
+
+</Computer>

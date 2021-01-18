@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psylanceLogs"
+          name="Psylance Logs Archive"
+          ip="196.125.26.1"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="Psylance"
+          type="4">
+
+<ports>22, 25, 80, 443, 1433, 6881</ports>
+<portsForCrack val="6"/>
+<firewall level="6"/>
+<trace time="200"/>
+
+<file path="home/hacklogs/Coel" name="Coel_Logs_5.dat">#BINARY#</file>
+<file path="home/hacklogs/Coel" name="Coel_Logs_6.dat">#BINARY#</file>
+<file path="home/hacklogs/Coel" name="Coel_Logs_7.dat">#BINARY#</file>
+<file path="home/hacklogs/Coel" name="Coel_Logs_8.dat">#BINARY#</file>
+<file path="home/hacklogs/Coel" name="Coel_Logs_9.dat">#BINARY#</file>
+
+<file path="home/hacklogs/Kaguya" name="Kaguya_Logs_2.dat">#BINARY#</file>
+<file path="home/hacklogs/Kaguya" name="Kaguya_Logs_3.dat">#BINARY#</file>
+<file path="home/hacklogs/Kaguya" name="Kaguya_Logs_4.dat">#BINARY#</file>
+<file path="home/hacklogs/Kaguya" name="Kaguya_Logs_5.dat">#BINARY#</file>
+
+<file path="home/hacklogs/D3f4ult" name="D3f4ult_Logs_3.dat">#BINARY#</file>
+<file path="home/hacklogs/D3f4ult" name="D3f4ult_Logs_4.dat">#BINARY#</file>
+<file path="home/hacklogs/D3f4ult" name="D3f4ult_Logs_5.dat">#BINARY#</file>
+<file path="home/hacklogs/D3f4ult" name="D3f4ult_Logs_6.dat">#BINARY#</file>
+<file path="home/hacklogs/D3f4ult" name="D3f4ult_Logs_7.dat">#BINARY#</file>
+<file path="home/hacklogs/D3f4ult" name="D3f4ult_Logs_8.dat">#BINARY#</file>
+
+<file path="home/logs" name="Server_Uptime.dll">#BINARY#</file>
+
+<WhitelistAuthenticatorDaemon Remote="psylanceWhitelist2"/>
+
+</Computer>

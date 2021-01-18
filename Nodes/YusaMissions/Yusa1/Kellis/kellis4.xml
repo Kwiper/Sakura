@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="kellis4">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="A Small Update on Firmware Patch">
+Development of the new patch has been delayed due to unforseen circumstances. We apologize for the inconvenience this will cause for people around the world, but do not worry. Our team is working day and night to get this patch out!
+</posting>
+
+<email>
+<sender>Kwiper</sender>
+<subject>Error</subject>
+<body>If you're reading this, then shit's broken and you should panic.</body>
+<attachments></attachments>
+</email>
+</mission>

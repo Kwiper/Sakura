@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="xavierComp2"
+          name="Xavier Workstation"
+          ip="42.152.67.124"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="7"/>
+
+<eosDevice name="Xavier Jailbroken ePhone" id="xavierPhone" icon="ePhone2" empty="false" passOverride="alpine">
+<file path="eos/test" name="RTSP.txt">VGc904LAL29Mn
+No way in hell am I remembering this off the top of my head. I could make an acronym for it, though.
+Vegetable Gardens create 904 Legitimate Arguments Like 29 Mountain nickels.
+Fuck that.</file>
+<file path="eos/test" name="test.txt">testing testing 1 2 3.</file>
+</eosDevice>
+
+</Computer>

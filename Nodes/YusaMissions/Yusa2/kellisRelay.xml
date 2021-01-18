@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisRelay"
+          name="Kellis Biotech Relay Server"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="kellis"
+          type="4">
+
+<ports>22, 25, 443</ports>
+<portsForCrack val="2"/>
+
+<dlink target="kellisMail"/>
+<dlink target="kellisJames2"/>
+
+</Computer>

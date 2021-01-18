@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemaker"
+          name="KBT-PM 3.25 REG#19241"
+          ip="202.6.141.219"
+          security="1"
+          icon="chip"
+          type="4">
+
+<ports>104</ports>
+<trace time="-1"/>
+
+<HeartMonitor patient="A_Yusa"/>
+
+<file path="KBT_Pacemaker" name="PacemakerFirmware_Patch_2.11.dll">#PACEMAKER_FW_DANGER#</file>
+
+</Computer>

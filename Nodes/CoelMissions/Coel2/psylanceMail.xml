@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psylanceMail"
+          name="Psylance Mail Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<account username="faithless" password="FAITHFUL" type="MAIL"/>
+
+<ports>21, 22, 25, 80, 443, 1433, 6881</ports>
+<portsForCrack val="8"/>
+
+<mailServer name="Psylance" color="35,255,133" generateJunk="true">
+<email recipient="faithless" sender="Psylance Administrator" subject="Whitelist">
+Greetings, 
+We have received your request to access the Psylance Whitelist Server 2
+Please follow the attached link below.
+Sincerely,
+Psylance Administration
+
+!ATTACHMENT:129.26.16.156</email>
+<email recipient="faithless" sender="YourAnimeList" subject="New Releases">
+Hello, faithless
+We have updated our database with new releases coming soon.
+You may be interested in:
+-Your Hero Academia S3
+-Assault on Titans S3
+-Wolfensteins;Gate Zero
+-One Kick Woman S2
+
+Sincerely,
+-YourAnimeList Team</email>
+</mailServer>
+
+</Computer>

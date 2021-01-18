@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacificAirLogs"
+          name="Pacific Air Logs Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>21, 22, 25, 80, 192</ports>
+<portsForCrack val="4"/>
+
+<dlink target="pacificAirMail"/>
+<dlink target="pacificAirMainframe"/>
+<dlink target="psyco"/>
+<dlink target="lethbridgeComp"/>
+
+
+<file path="home" name="readme.txt">This server is maintained by Psyco. Do not alter, delete or upload any files without authorization.</file>
+
+<file path="home/logs" name="Kaguya_Log.dat">#BINARY#</file>
+<file path="home/logs" name="Coel_Log.dat">#BINARY#</file>
+<file path="home/logs" name="D3f4ult_Log.dat">#BINARY#</file>
+
+<file path="home/trace" name="0537_Trace.dat">Trace Active:
+Target ID: PAT-537
+Target IP: 183.203.15.12</file>
+
+<file path="home/web" name="Web_Server_Logs.dat">#BINARY#</file>
+<file path="home/server" name="Server_Uptime.dat">#BINARY#</file>
+
+</Computer>

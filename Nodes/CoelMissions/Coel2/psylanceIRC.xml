@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psylanceIRC"
+          name="Psylance IRC Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="Psylance"
+          type="4">
+
+<ports>22, 25, 80, 443, 6881, 1433</ports>
+<portsForCrack val="6"/>
+<proxy time="1"/>
+
+<dlink target="faithlessComp"/>
+
+<IRCDaemon themeColor="67,204,148" name="Psylance Client Admin IRC Channel" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">the thing about anime is that it's a medium with near limitless creative potential</post>
+    <post user="faithless">but every year, we get the same generic "in another world" series featuring a self-insert protagonist and his harem of girls</post>
+    <post user="dardypants">are you really going to talk about this here...?</post>
+    <post user="da_vito">now listen here you fucking weeb</post>
+    <post user="faithless">that hurts</post>
+    <post user="da_vito">good, I have your attention now.</post>
+    <post user="faithless">you weren't even gonna add to the conversation?</post>
+    <post user="da_vito">shounen anime is the best</post>
+    <post user="da_vito">anyways</post>
+    <post user="da_vito">I kinda need the link to the logs server</post>
+    <post user="dardypants">how come?</post>
+    <post user="da_vito">you remember how sometime last year we were... silenced?</post>
+    <post user="da_vito">yeah, the good ol' government's asking for logs on everyone involved in the incident.</post>
+    <post user="dardypants">It's 196.125.26.1</post>
+    <post user="da_vito">arigatou gozaimasu</post>
+    <post user="faithless">who's the fucking weeb now</post>
+</IRCDaemon>
+
+</Computer>

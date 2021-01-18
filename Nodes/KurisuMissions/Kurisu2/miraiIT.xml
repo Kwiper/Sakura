@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="miraiIT"
+          name="Mirai Technologies IT Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="1">
+
+<ports>21, 22, 25, 80, 443, 6881</ports>
+<portsForCrack val="6"/>
+<proxy time="1"/>
+
+<file path="home" name="IT_Journal.txt">IT Journal Entry 1:
+People in a tech company are surprisingly stupid.
+
+IT Journal Entry 2:
+Some bloke asked me to fix the copier. It was unplugged.
+
+IT Journal Entry 3:
+Literally the only advice I've given to people whose laptops are "broken" is to turn it off and on again. It's like the duct tape of computers.
+
+IT Journal Entry 4:
+Fuck my life.</file>
+
+<Memory>
+<Commands>
+<Command>connect 255.12.26.67</Command>
+<Command>login</Command>
+<Command>admin</Command>
+<Command>VGc92SJl</Command>
+<Command>dc</Command>
+</Commands>
+</Memory>
+
+</Computer>

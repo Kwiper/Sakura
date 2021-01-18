@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="kellis2">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Kellis Biotech: Year in Review">
+The past year, Kellis Biotech has consistently provided hospitals around the world with cutting-edge technologies to treat patients. We doubled the amount of products we pushed out from last year, and we are proud to announce that will be continuing this year.
+</posting>
+
+<email>
+<sender>Kwiper</sender>
+<subject>Error</subject>
+<body>If you're reading this, then shit's broken and you should panic.</body>
+<attachments></attachments>
+</email>
+</mission>

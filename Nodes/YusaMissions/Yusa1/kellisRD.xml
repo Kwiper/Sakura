@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisRD"
+          name="Kellis Biotech Research and Development"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="kellis"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="6" solution="BIOTECH"/>
+<admin type="fast" resetPassword="true" isSuper="false"/>
+
+<encryptedFile path="home" name="Firmware_Patch_2.11_Research.dec" extension=".docx" ip="128.224.14.1" header="Firmware Patch Research Notes" pass="Kellis-2114">
+This firmware patch will update every single Kellis Biotech pacemaker in use today.
+The specifications of this patch are as follows:
+#BINARY#</encryptedFile>
+
+<encryptedFile path="home" name="Outdated_Pacemaker_Specifications.dec" extension=".docx" ip="192.168.1.1" header="Outdated Pacemaker Specifications" pass="Kellis-2931">#BINARY#</encryptedFile>
+<encryptedFile path="home" name="Firmware_Patch_2.10_Research_[OLD].dec" extension=".docx" ip="192.168.1.1" header="Firmware Patch Research Notes [OLD]" pass="Kellis-3721">#BINARY#</encryptedFile>
+
+<Memory>
+<Commands>
+<Command>Connection from: 66.251.52.6</Command>
+<Command>scp Firmware_Patch_2.11_PROTOTYPE.rar</Command>
+<Command>rm Firmware_Patch_2.11_PROTOTYPE.rar</Command>
+<Command>dc</Command>
+</Commands>
+</Memory>
+
+
+</Computer>

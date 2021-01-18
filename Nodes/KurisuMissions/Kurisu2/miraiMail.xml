@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="miraiMail"
+          name="Mirai Technologies Mail Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<account username="Luther" password="M1r41-C30" type="MAIL"/>
+<account username="Gerald" password="M1r41-582" type="MAIL"/>
+
+<ports>22, 25, 80, 443, 6881</ports>
+<portsForCrack val="5"/>
+<trace time="100"/>
+<firewall level="6"/>
+<proxy time="1"/>
+
+<mailServer name="Mirai Technologies" color="180,80,180" generateJunk="true">
+<email recipient="Gerald" sender="Luther" subject="Re:Makise">
+Alright, I'll give you access to my computer.
+Make sure the information on Makise stays private.
+Username is my first name.
+Password is my wife's name.
+I'm trusting that you don't share this with anyone.
+-Luther</email>
+<email recipient="Luther" sender="Lucina" subject="AMA">
+That was a success.
+We should do it again sometime.</email>
+<email recipient="Luther" sender="Gerald" subject="Makise">
+I'd like to request information on Makise.
+There's something that's been bothering me.
+-Gerald</email>
+</mailServer>
+
+<WhitelistAuthenticatorDaemon Remote="miraiWhitelist"/>
+</Computer>

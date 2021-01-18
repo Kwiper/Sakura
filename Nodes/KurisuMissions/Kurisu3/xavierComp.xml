@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="xavierComp"
+          name="Xavier Laptop"
+          ip="44.252.75.1"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="1">
+
+<ports>21, 22, 1433, 6881, 443</ports>
+<portsForCrack val="5"/>
+
+<file path="home" name="musings.txt">People often ask me if I teach mutants. What the fuck, why would they think that, just because my name is like Professor Exavier from Ex-Men?</file>
+<encryptedFile path="bin" name="RTSPCrack.dec" extension=".exe" ip="222.51.54.102" header="RTSPCrack.exe" pass="VGc904LAL29Mn">#RTSP_EXE#</encryptedFile>
+
+</Computer>

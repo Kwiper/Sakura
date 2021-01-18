@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kurisuDrop"
+          name="Kurisu Drop"
+          security="1"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<uploadServerDaemon name="Kurisu Dropbox" folder="Drop" 
+                    needsAuth="false" color="204,116,212"/>
+
+</Computer>

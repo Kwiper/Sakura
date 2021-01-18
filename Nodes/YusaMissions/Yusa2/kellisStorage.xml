@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisStorage"
+          name="Kellis Biotech Storage Server"
+          ip="52.162.87.23"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="kellis"
+          type="4">
+
+<ports>22, 25, 104, 443, 6881</ports>
+<portsForCrack val="5"/>
+<firewall level="6" solution="BIOTECH"/>
+
+<file path="home/prototypes" name="Firmware_Patch_2.11_PROTOTYPE.rar">#BINARY#</file>
+<file path="home/in_development" name="Kellis_Biotech_Pacemaker_3.0.rar">#BINARY#</file>
+<file path="home/in_development" name="Kellis_Biotech_MRI.rar">#BINARY#</file>
+<file path="home/in_development" name="Kellis_Biotech_Adjustable_Prosthetics.rar">#BINARY#</file>
+
+<WhitelistAuthenticatorDaemon Remote="kellisWhitelist"/>
+
+</Computer>

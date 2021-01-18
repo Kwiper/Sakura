@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ispComp"
+          name="ISP Management Server" 
+          ip="68.144.93.18" 
+          security="5" 
+          type="4">
+
+  <adminPass pass="traceavert" />
+
+  <ports>21, 22, 25, 80, 443, 1433, 6881, 554</ports>
+  <portsForCrack val="5"/>
+  <proxy time="1" />
+  <firewall level="6"/>
+  <trace time="-1"/>
+  
+<admin type="progress" resetPassword="false" IsSuper="false"/>
+
+
+  <ispSystem />
+  
+</Computer>

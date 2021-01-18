@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="maronComp"
+          name="Maron Workstation"
+          ip="32.156.43.3"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 443, 554</ports>
+<portsForCrack val="4"/>
+
+<dlink target="governmentTechIRC"/>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+
+<file path="home" name="Phone.txt">Phone password's the name of my husband. I can't forget my husband's name, can I?</file>
+
+<eosDevice name="Maron ePhone" id="maronPhone" icon="ePhone" empty="false" passOverride="Riley">
+<mail username="maron.ts@usamail.com" pass="PLso928CMs"/>
+</eosDevice>
+
+</Computer>

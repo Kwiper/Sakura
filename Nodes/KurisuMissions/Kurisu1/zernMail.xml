@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zernMail"
+          name="ZERN Mail Server"
+          ip="144.225.232.3"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+
+<account username="jaegar" password="Zern-1482" type="MAIL"/>
+<account username="ackerman" password="Zern-1422" type="MAIL"/>
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="5"/>
+<trace time="100"/>
+<proxy time="1"/>
+<firewall level="6"/>
+
+<mailServer name="ZERN" color="50,237,212" generateJunk="true">
+<email recipient="jaegar" sender="ackerman" subject="Re:Re:Cool Program">
+Yeah, I'll send you the link right now.
+
+25.29.153.2
+
+You'll find it there.
+- Ackerman</email>
+<email recipient="jaegar" sender="ackerman" subject="Cool Program">
+I've found a place that has a neat program that you might wanna check out.
+
+- Ackerman</email>
+<email recipient="ackerman" sender="jaegar" subject="Re:Cool Program">
+Oh nice. Mind if you send me that shit?
+
+- Jaegar</email>
+</mailServer>
+
+</Computer>

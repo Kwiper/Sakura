@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zernServer"
+          name="ZERN Central Server"
+          ip="144.252.32.13"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="3"/>
+<trace time="150"/>
+<firewall level="6" solution="CENTRAL"/>
+<proxy time="0.5"/>
+
+<dlink target="zernIT"/>
+<dlink target="zernMail"/>
+<dlink target="zernWeb"/>
+<dlink target="zernEmployees"/>
+
+<file path="home" name="Central.txt">This is the central server that keeps the network running. Do not upload any files on this server.</file>
+
+<Memory>
+<Commands>
+<Command>dlink 144.252.32.13 145.242.23.25</Command>
+<Command>unlink 144.252.32.13 145.242.23.25</Command>
+</Commands>
+</Memory>
+
+</Computer>

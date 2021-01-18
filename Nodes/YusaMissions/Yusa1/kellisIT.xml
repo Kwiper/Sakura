@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisIT"
+          name="Kellis Biotech IT Server"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="4"/>
+
+<file path="home" name="Contact.txt">If you have any issues, contact James @128.27.122.25</file>
+
+</Computer>

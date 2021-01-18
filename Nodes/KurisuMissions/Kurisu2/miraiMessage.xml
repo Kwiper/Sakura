@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="miraiMessage"
+          name="Mirai Technologies Message Board"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="5"/>
+
+<messageBoard name="Mirai Message Board">
+<thread>Docs/MiraiThread/miraithread1.txt</thread>
+<thread>Docs/MiraiThread/miraithread2.txt</thread>
+</messageBoard>
+
+</Computer>

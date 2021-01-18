@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eamonPacemaker"
+          name="KBT-PM 3.25 REG#38911"
+          ip="202.4.121.229"
+          security="1"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>104</ports>
+<portsForCrack val="1"/>
+
+<HeartMonitor patient="E_Greene"/>
+
+<file path="KBT_Pacemaker/Active" name="PacemakerFirmware_Patch_2.11.dll">#PACEMAKER_FW_WORKING#</file>
+<file path="KBT_Pacemaker" name="PacemakerFirmware_Patch_2.11.dll">#PACEMAKER_FW_WORKING#</file>
+
+</Computer>

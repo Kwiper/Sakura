@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="futureHub"
+          name="Future Foundation Hub Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 443, 1433, 6881, 554</ports>
+<portsForCrack val="6"/>
+
+<dlink target="futureDevelopment"/>
+
+<file path="home" name="Server_Runtime.dll">#BINARY#</file>
+<file path="home" name="Connections.dat">#BINARY#</file>
+<file path="home" name="Network_Switch.dll">#BINARY#</file>
+
+<Memory>
+<Data>
+<Block>Connection from: #PLAYER_IP#</Block>
+<Block>Connection from: 39.27.126.65</Block>
+</Data>
+</Memory>
+
+</Computer>

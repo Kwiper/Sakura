@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="xavierProxy1"
+          name="Xavier Proxy Node 1"
+          ip="222.51.54.102"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 443, 554</ports>
+<portsForCrack val="4"/>
+
+<file path="home" name="Proxy.txt">Why do I even have this file</file>
+
+<Memory>
+<Commands>
+<Command>unlink 222.51.54.102 42.152.67.124</Command>
+</Commands>
+</Memory>
+
+</Computer>
+          

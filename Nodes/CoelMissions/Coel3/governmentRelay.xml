@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="governmentRelay"
+          name="US Government Relay Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 443, 1433</ports>
+<portsForCrack val="5"/>
+
+<dlink target="governmentMail"/>
+
+<file path="sys" name="Web_Server_Runtime.dll">#BINARY#</file>
+
+<Memory>
+<Data>
+<Block>Connection from: #PLAYER_IP#</Block>
+<Block>Connection from: 32.156.43.3</Block>
+</Data>
+</Memory>
+
+</Computer>
+

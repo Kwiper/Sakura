@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisMaintenance"
+          name="Kellis Biotech Pacemaker Maintenance Server #38911"
+          ip="203.19.252.152"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 80, 443</ports>
+<portsForCrack val="4"/>
+
+<dlink target="kellisAdmin"/>
+
+<file path="home" name="PM_38911.txt">This server serves as maintenance for:
+Pacemaker REG#38911
+Please contact system administrator for queries regarding the pacemaker.</file>
+
+</Computer>
